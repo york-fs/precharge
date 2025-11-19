@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G9KB-1A_DC12
+D General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole
+K
+F https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/K340-E1.pdf
+$ENDCMP
+#
+#End Doc Library

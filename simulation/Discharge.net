@@ -1,0 +1,14 @@
+* C:\Users\joshb\Documents\Uni Work\Formula Student\Precharge\Simulation\Discharge.asc
+C1 N005 0 200µ
+R1 N005 0 188k
+V1 N003 0 600
+R2 N005 N004 1000
+R3 N008 0 4k
+S1 N003 N004 N002 N001 MYSW
+V2 N002 N001 PULSE(0 5 0 0.000001 0.000001 2 4 1)
+S2 N005 N008 N007 N006 MYSW
+V3 N007 N006 PULSE(5 0 0 0.000001 0.000001 2 4 1)
+.model MYSW SW(Ron=5 Roff=1Meg Vt=2)
+.tran 8
+.backanno
+.end
