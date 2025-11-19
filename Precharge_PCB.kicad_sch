@@ -6890,8 +6890,20 @@
 		(uuid "2f7fe122-6967-4796-83f5-ee3af800169d")
 	)
 	(no_connect
+		(at 207.01 107.95)
+		(uuid "30c88bdc-7cf9-48ba-9694-90409542a62a")
+	)
+	(no_connect
+		(at 207.01 110.49)
+		(uuid "34c81071-21e6-48fe-bf61-7ed88dd2ff5c")
+	)
+	(no_connect
 		(at 208.28 97.79)
 		(uuid "4044973d-5fe5-4d16-9a64-e524f9011354")
+	)
+	(no_connect
+		(at 207.01 113.03)
+		(uuid "61588f05-d7a6-4044-8879-4f0cd863fbd4")
 	)
 	(no_connect
 		(at 243.84 107.95)
@@ -6902,12 +6914,20 @@
 		(uuid "9c388058-cd8c-429a-bf97-755ea04f47b7")
 	)
 	(no_connect
+		(at 208.28 95.25)
+		(uuid "9cb2052a-30b6-4b0d-b0ec-9f49bf4dc625")
+	)
+	(no_connect
 		(at 208.28 100.33)
 		(uuid "af507145-008d-4a1c-83c6-3320502103c0")
 	)
 	(no_connect
 		(at 243.84 143.51)
 		(uuid "bbead587-0cd0-4aa4-9ce2-e0827a6f72b3")
+	)
+	(no_connect
+		(at 208.28 87.63)
+		(uuid "c1e0703c-59cf-4cf0-bdff-97664d234dc9")
 	)
 	(no_connect
 		(at 57.15 173.99)
@@ -9567,28 +9587,6 @@
 		)
 		(uuid "f9a0c03d-5865-40b3-8e8f-5a29e2180648")
 	)
-	(global_label "SCL"
-		(shape output)
-		(at 207.01 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "01391bce-6ac4-4a59-8324-57c06458da31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.8978 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_RX"
 		(shape output)
 		(at 24.13 171.45 180)
@@ -9668,28 +9666,6 @@
 		(uuid "6188a023-405c-4f1a-bde7-42413517cad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.2788 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EEPROM_WC"
-		(shape output)
-		(at 207.01 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "885b69b7-f33a-4c64-87cd-8caf51187a06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7548 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,28 +9776,6 @@
 		(uuid "dc3bbe86-50e1-4a33-974f-83c29721f5a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.3988 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 207.01 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "fa446e54-63ac-4d3c-88e4-95635d0d239b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.9752 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
