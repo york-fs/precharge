@@ -2324,7 +2324,7 @@
 		)
 		(uuid "fb038047-16c6-4eff-9597-a9bd25d990ab")
 	)
-	(global_label "V-ACC"
+	(global_label "V-TS"
 		(shape input)
 		(at 152.4 110.49 270)
 		(fields_autoplaced yes)
@@ -2336,7 +2336,7 @@
 		)
 		(uuid "7724c42c-98c3-4998-92cb-a9c96197fc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 117.7926 90)
+			(at 152.4 116.6498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2591,7 @@
 		(dnp no)
 		(uuid "229b21eb-b2d3-4772-97f9-5e97fe6f6e11")
 		(property "Reference" "R26"
-			(at 157.48 106.68 90)
+			(at 156.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 154.94 106.68 90)
+			(at 156.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
