@@ -7511,6 +7511,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 125.73) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509efbef-ea05-43df-ad02-aae53804c738")
+	)
+	(wire
+		(pts
 			(xy 186.69 140.97) (xy 191.77 140.97)
 		)
 		(stroke
@@ -9271,6 +9281,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 123.19) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcabb2d1-168f-406f-885d-6cfacb04adf7")
+	)
+	(wire
+		(pts
 			(xy 138.43 142.24) (xy 147.32 142.24)
 		)
 		(stroke
@@ -9379,16 +9399,6 @@
 		)
 		(uuid "61421f7a-d9bf-474e-9740-0f7dcb864e39")
 	)
-	(label "CANL"
-		(at 95.25 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61ac0382-4025-4c13-a0eb-4040e6d11c89")
-	)
 	(label "Precharge-_ACT"
 		(at 138.43 27.94 0)
 		(effects
@@ -9448,16 +9458,6 @@
 			(justify right bottom)
 		)
 		(uuid "8975046e-dca0-4791-a029-bee60768c144")
-	)
-	(label "CANH"
-		(at 95.25 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "934475da-4334-4910-aabd-171bf2641670")
 	)
 	(label "AIR-_CMD"
 		(at 30.48 58.42 180)
@@ -9667,6 +9667,28 @@
 			)
 		)
 	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 95.25 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "30f8dc79-f950-49fe-81bf-4bb86ec64abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1895 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape output)
 		(at 207.01 118.11 180)
@@ -9680,6 +9702,28 @@
 		(uuid "6188a023-405c-4f1a-bde7-42413517cad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.2788 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 62.23 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "6ce22765-1e04-4c46-a4cd-7ba94b321514")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.0524 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,6 +9751,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 95.25 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8da7f552-2be8-4d7c-b346-d3fb32d4b3e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4276 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9812,6 +9878,28 @@
 		(uuid "dc3bbe86-50e1-4a33-974f-83c29721f5a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.3988 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 62.23 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "f6e82c30-6a8c-407d-acf3-78e9e99a9b06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.2905 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,6 +11313,76 @@
 			(project ""
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 68.58 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c3aad1-4478-4620-868d-2dc9d035cb5d")
+		(property "Reference" "J9"
+			(at 71.12 125.7301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MolexMicrofitPlus"
+			(at 71.12 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLibrary:MolexMicrofitPlus1x2"
+			(at 68.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef9feeb-1699-402a-bb3a-5bc24455c164")
+		)
+		(pin "2"
+			(uuid "81338542-cbdc-4e1f-b57f-e003ea138afc")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "J9")
 					(unit 1)
 				)
 			)
