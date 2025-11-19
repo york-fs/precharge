@@ -7,7 +7,7 @@
 	(title_block
 		(title "Precharge")
 		(date "2025-10-06")
-		(rev "A")
+		(rev "${REVISION}")
 		(company "York Formula Student")
 		(comment 1 "Designed by Josh B and Logan C")
 	)

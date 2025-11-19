@@ -709,5 +709,7 @@
       "HV Sampling"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REVISION": "A"
+  }
 }

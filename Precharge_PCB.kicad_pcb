@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "${REVISION}")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -120,6 +123,7 @@
 			(outputdirectory "")
 		)
 	)
+	(property "REVISION" "A")
 	(net 0 "")
 	(embedded_fonts no)
 )
