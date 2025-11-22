@@ -1,14 +1,17 @@
 # KiCad backup files.
-*.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+_autosave-*
+*-backups/
+\#auto_saved_files#
+
+# KiCad temporary files.
+*~
+*.000
 *.lck
 *.tmp
-_autosave-*
-*~
-*-backups/
 
 # KiCad local settings file.
 *.kicad_prl
