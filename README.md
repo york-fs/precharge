@@ -7,3 +7,9 @@
 ![DRC Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fyork-fs.github.io%2Fprecharge%2Fdrc.json)
 
 ![Preview Render](https://york-fs.github.io/precharge/preview.jpg)
+
+## Cloning
+
+A recursive clone must be used to download the `kicad-library` repository:
+
+    git clone --recursive https://github.com/york-fs/precharge.git
