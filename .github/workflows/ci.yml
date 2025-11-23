@@ -1,0 +1,9 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+jobs:
+  ci:
+    uses: york-fs/monorepo/.github/workflows/kicad.yml@b6fedb5f39fde4c13948f0eda20d567c7e389338
