@@ -12,156 +12,6 @@
 		(comment 1 "Designed by Josh B and Logan C")
 	)
 	(lib_symbols
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -453,480 +303,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "G2RL-2A_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K7"
-				(at 16.51 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "G7L-2A-X-SI_DC12"
-				(at 16.51 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relay_THT:Relay_DPST_Omron_G2RL-2A"
-				(at 16.51 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "General Purpose Low Profile Relay DPST Through Hole, Omron G2RL series, Normally Open,  8A 250VAC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Dual Pole Relay Omron DPST NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay?DPST?Omron?G2RL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "G2RL-2A_1_0_1"
-				(rectangle
-					(start -15.24 5.08)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -13.335 1.905)
-					(end -6.985 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -1.905) (xy -7.62 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 5.08) (xy -10.16 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy -10.16 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.985 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.255 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "G2RL-2A_1_1_1"
-				(pin passive line
-					(at -10.16 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:G2RL-2A"
+		(symbol "Relay:G2RL-1A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 16.51 3.81 0)
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -934,8 +316,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "G2RL-2A"
-				(at 16.51 1.27 0)
+			(property "Value" "G2RL-1A"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -943,8 +325,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_DPST_Omron_G2RL-2A"
-				(at 16.51 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
+				(at 11.43 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -962,7 +344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "General Purpose Low Profile Relay DPST Through Hole, Omron G2RL series, Normally Open,  8A 250VAC"
+			(property "Description" "General Purpose Low Profile Relay SPST Through Hole, Omron G2RL series, Normally Open, 12A 250VAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -971,7 +353,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Dual Pole Relay Omron DPST NO"
+			(property "ki_keywords" "Single Pole Relay SPST Omron NO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -980,7 +362,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?DPST?Omron?G2RL*"
+			(property "ki_fp_filters" "Relay?SPST?Omron?G2RL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -989,10 +371,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "G2RL-2A_0_1"
+			(symbol "G2RL-1A_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G2RL-1A_0_1"
 				(rectangle
-					(start -15.24 5.08)
-					(end 15.24 -5.08)
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1002,8 +398,8 @@
 					)
 				)
 				(rectangle
-					(start -13.335 1.905)
-					(end -6.985 -1.905)
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1014,7 +410,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -1.905) (xy -7.62 1.905)
+						(xy -7.62 -1.905) (xy -2.54 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1026,7 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 5.08) (xy -10.16 1.905)
+						(xy -5.08 5.08) (xy -5.08 1.905)
 					)
 					(stroke
 						(width 0)
@@ -1038,58 +434,10 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 -5.08) (xy -10.16 -1.905)
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.985 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1122,30 +470,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.635 0) (xy 1.27 0)
 					)
 					(stroke
@@ -1170,18 +494,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
@@ -1194,55 +506,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.255 3.81)
+						(xy 5.08 -2.54) (xy 3.175 3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -1254,19 +518,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1277,9 +529,9 @@
 					)
 				)
 			)
-			(symbol "G2RL-2A_1_1"
+			(symbol "G2RL-1A_1_1"
 				(pin passive line
-					(at -10.16 7.62 270)
+					(at -5.08 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1297,7 +549,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -7.62 90)
+					(at -5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1315,7 +567,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1333,7 +585,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 7.62 270)
+					(at 7.62 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1343,42 +595,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2035,8 +1251,8 @@
 		)
 	)
 	(rectangle
-		(start 71.12 41.91)
-		(end 200.66 121.92)
+		(start 33.02 34.29)
+		(end 162.56 114.3)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2077,10 +1293,16 @@
 		(uuid "620fba44-82c1-43dd-a612-84432ce25133")
 	)
 	(junction
-		(at 142.24 86.36)
+		(at 58.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9129e240-9104-4ec8-93f4-75283902b6c4")
+		(uuid "9478a781-f547-4fe8-a909-c78719473bc8")
+	)
+	(junction
+		(at 66.04 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a760cb2-3b98-4d99-8f9e-375ab1fabba7")
 	)
 	(junction
 		(at 110.49 73.66)
@@ -2089,20 +1311,40 @@
 		(uuid "b507ea72-cd1f-4cc8-b579-12635c157955")
 	)
 	(junction
-		(at 142.24 104.14)
+		(at 120.65 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f707e134-5e67-49e7-afec-1cda57826bac")
+		(uuid "fc2861bf-adae-46b5-8743-181a485cfae2")
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 142.24 86.36)
+			(xy 66.04 53.34) (xy 66.04 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0faf1434-653a-4f96-9c10-0c967e9f063f")
+		(uuid "0ae0b394-06e2-43de-b152-7d2fc31e0204")
+	)
+	(wire
+		(pts
+			(xy 66.04 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104ba188-549e-4d5e-8141-a924511542da")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 102.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e38995-ea4d-48ef-ae93-c432f20982a4")
 	)
 	(wire
 		(pts
@@ -2116,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 102.87 83.82)
+			(xy 53.34 83.82) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2136,6 +1378,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 62.23) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8c7c04-688c-4de8-ac5e-64dfba425ae1")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 99.06 60.96)
 		)
 		(stroke
@@ -2143,16 +1395,6 @@
 			(type default)
 		)
 		(uuid "2bede5e7-50f3-4dbe-bbd3-ddf81c5abb7f")
-	)
-	(wire
-		(pts
-			(xy 130.81 87.63) (xy 130.81 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb88213-f6da-46e3-b1ea-6f9086b0a70b")
 	)
 	(wire
 		(pts
@@ -2166,13 +1408,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 130.81 104.14)
+			(xy 58.42 68.58) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "405497b8-b956-4a96-a223-265e1817dfe3")
+		(uuid "406240a2-0522-44c7-805e-def31a90c295")
 	)
 	(wire
 		(pts
@@ -2186,26 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3d8706-bbf6-479f-9770-52891cf9a033")
-	)
-	(wire
-		(pts
-			(xy 142.24 86.36) (xy 142.24 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568d023a-b69a-40e0-aeec-656d83795287")
-	)
-	(wire
-		(pts
 			(xy 99.06 73.66) (xy 110.49 73.66)
 		)
 		(stroke
@@ -2216,23 +1438,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 142.24 86.36)
+			(xy 128.27 73.66) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b02b1c5-e094-4a1a-820f-66ed26a0727e")
+		(uuid "7434ca98-227e-4e01-bae4-c5833a5aade3")
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 72.39)
+			(xy 120.65 92.71) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96305c26-2bd6-4879-b1f8-bdeb504bb879")
+		(uuid "8efdeb5d-e382-4d84-9e2f-7519fecf8b07")
 	)
 	(wire
 		(pts
@@ -2246,16 +1468,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 102.87) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5e97161-2409-4ea8-a3b9-fd0ef91f0a72")
-	)
-	(wire
-		(pts
 			(xy 104.14 55.88) (xy 110.49 55.88)
 		)
 		(stroke
@@ -2266,33 +1478,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 120.65 76.2)
+			(xy 120.65 82.55) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa9cb829-1cb9-4156-a273-41d95f4c8d8d")
+		(uuid "ad6643a4-3c8e-4d3d-829a-328106643f0d")
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 142.24 73.66)
+			(xy 120.65 73.66) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8389157-7ba2-4b52-a7e3-e679dd0ea0c4")
-	)
-	(wire
-		(pts
-			(xy 130.81 73.66) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed63a35-3db6-4bd3-9a32-e8c6e10fa111")
+		(uuid "c5bdb466-a133-4230-937c-aca583a10db1")
 	)
 	(wire
 		(pts
@@ -2306,16 +1508,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4be6558-eb3f-4ea3-b9e0-9c2d0be1fd9d")
-	)
-	(wire
-		(pts
 			(xy 110.49 72.39) (xy 110.49 73.66)
 		)
 		(stroke
@@ -2326,7 +1518,7 @@
 	)
 	(global_label "V-TS"
 		(shape input)
-		(at 152.4 110.49 270)
+		(at 120.65 92.71 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2336,7 +1528,7 @@
 		)
 		(uuid "7724c42c-98c3-4998-92cb-a9c96197fc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 116.6498 90)
+			(at 120.65 98.8698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,19 +1538,19 @@
 			)
 		)
 	)
-	(global_label "Shutdown"
+	(global_label "V-PreCharge"
 		(shape input)
-		(at 133.35 57.15 90)
+		(at 128.27 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a691dd81-32b2-495f-a6d6-4549d211d7b7")
+		(uuid "a4b4a2ba-e14a-491e-85c4-81fa195d7b42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 47.7043 90)
+			(at 143.6528 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +1562,7 @@
 	)
 	(global_label "V-ACC"
 		(shape input)
-		(at 154.94 87.63 90)
+		(at 123.19 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2380,7 +1572,7 @@
 		)
 		(uuid "eca0eb51-a82b-4b9b-a278-49c8c66aea28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 80.3274 90)
+			(at 123.19 49.8474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,29 +1584,18 @@
 	)
 	(hierarchical_label "Intended State"
 		(shape output)
-		(at 121.92 76.2 0)
+		(at 69.85 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "531a2e4f-f6ea-46a2-a7c6-28c784b6a436")
-	)
-	(hierarchical_label "Actual State"
-		(shape output)
-		(at 162.56 102.87 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce0311f9-d43d-4884-aaa9-fca0ac4a4662")
+		(uuid "11e061e3-5ff4-4164-8de7-251062a11734")
 	)
 	(hierarchical_label "Signal"
 		(shape input)
-		(at 100.33 83.82 180)
+		(at 53.34 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,76 +1603,6 @@
 			(justify right)
 		)
 		(uuid "fa06995b-57a6-4430-b2a7-fcdb29f46e29")
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 130.81 99.06 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01335d82-f312-4034-aa75-00246a400000")
-		(property "Reference" "D23"
-			(at 128.27 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 128.27 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "380aa914-a8f6-4b09-83d0-3f697296be4d")
-		)
-		(pin "2"
-			(uuid "272ff6f4-c6dc-4e9f-8251-fa06a749dad4")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
@@ -2503,7 +1614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04beceb2-19e9-4eb1-abb4-5d5d931e73a1")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 96.52 63.4999 90)
 			(effects
 				(font
@@ -2575,6 +1686,94 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 120.65 77.47 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "057ebc9d-6bd9-4f26-adf8-ff7d624b4da6")
+		(property "Reference" "D21"
+			(at 123.19 78.7401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 123.19 76.2001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 116.205 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ade7e01-f242-485c-8bb2-32f80d11a2bc")
+		)
+		(pin "1"
+			(uuid "466f685b-2a6f-4137-9232-adf1071d2038")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
 					(reference "D21")
 					(unit 1)
 				)
@@ -2583,15 +1782,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 106.68 0)
+		(at 120.65 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "229b21eb-b2d3-4772-97f9-5e97fe6f6e11")
-		(property "Reference" "R26"
-			(at 156.21 105.41 0)
+		(property "Reference" "R20"
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +1798,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 156.21 107.95 0)
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +1806,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.622 106.68 90)
+			(at 118.872 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +1815,7 @@
 			)
 		)
 		(property "Datasheet" "https://s.resistor.today/shop/products/epdf/APLR.pdf"
-			(at 152.4 106.68 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +1824,7 @@
 			)
 		)
 		(property "Description" "Non-Inductive High Energy Anti-Pulse Resistor"
-			(at 152.4 106.68 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,95 +1841,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 130.81 91.44 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "255b1a95-d060-4049-aab1-bc4d891a4abc")
-		(property "Reference" "D22"
-			(at 128.27 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 128.27 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 135.255 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a446d31-3886-4d2c-b391-c060c1271ed6")
-		)
-		(pin "1"
-			(uuid "60cec24d-c6e2-4fc0-be4b-39189a4552b5")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "D22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2744,10 +1855,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "468e01e0-fe47-4ec1-8b3e-e430587aebb6")
-		(property "Reference" "Q3"
-			(at 114.3 82.5499 0)
+		(property "Reference" "Q8"
+			(at 102.362 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +1866,7 @@
 			)
 		)
 		(property "Value" "DMN61D8LQ"
-			(at 114.3 85.0899 0)
+			(at 93.726 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,106 +1916,42 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "Q3")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Relay:G2RL-2A")
-		(at 120.65 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cef6949-5a39-45d5-b300-3acd9e5a7b44")
-		(property "Reference" "K4"
-			(at 137.16 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G2RL-2A"
-			(at 137.16 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPST_Omron_G2RL-2A"
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Low Profile Relay DPST Through Hole, Omron G2RL series, Normally Open,  8A 250VAC"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "a29136ed-cf12-40bd-befd-386108278842")
-		)
-		(pin "13"
-			(uuid "2443e7e2-ab6f-4164-ad75-be8380c01cfa")
-		)
-		(pin "A2"
-			(uuid "91cf6ed3-7f70-48c2-a3e3-a38b42ed3b69")
-		)
-		(pin "14"
-			(uuid "4985e116-bad1-4b3d-9c2e-8d0c7851ecec")
-		)
-		(pin "23"
-			(uuid "6a5aaeff-18a9-41e2-829a-76bec820d535")
-		)
-		(pin "24"
-			(uuid "ad6e7717-6c42-410d-b6af-d5053aec0b4a")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VL")
-		(at 123.19 57.15 0)
+		(lib_id "Device:R")
+		(at 66.04 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "542ba847-b396-46ca-8edb-181ac158bfa9")
-		(property "Reference" "#PWR064"
-			(at 123.19 60.96 0)
+		(uuid "499445ea-b983-40e1-a2f8-ee3b1e9b4307")
+		(property "Reference" "R19"
+			(at 68.58 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 64.262 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,16 +1959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VL"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 57.15 0)
+		(property "Datasheet" "~"
+			(at 66.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,17 +1968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VL\""
-			(at 123.19 57.15 0)
+		(property "Description" "Resistor"
+			(at 66.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,12 +1978,156 @@
 			)
 		)
 		(pin "1"
-			(uuid "3905794a-1873-4269-8dbd-5350375530cc")
+			(uuid "cccd2c33-fd94-4c79-9f38-b2c82b69a365")
+		)
+		(pin "2"
+			(uuid "9a73b327-9c1f-42b0-ac18-920baa77cc6d")
 		)
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR064")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMN61D8LQ")
+		(at 63.5 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54d2b437-c267-43e1-84d8-1d24cf62a490")
+		(property "Reference" "Q7"
+			(at 69.85 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN61D8LQ"
+			(at 69.85 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 68.58 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN61D8LQ.pdf"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V Vds, 0.470A Id, N-Channel MOSFET for switching inductive loads , SOT-23"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f501b1c8-5615-4280-a96c-547a552ff2ba")
+		)
+		(pin "2"
+			(uuid "9bf74958-d527-485c-a4b7-a72848c7f8ef")
+		)
+		(pin "3"
+			(uuid "4f72d279-7232-419d-a0ac-4ce68890d04f")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VL")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff9fd10-3a62-4481-a19c-b7fbbeecdbf9")
+		(property "Reference" "#PWR055"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VL"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VL\""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e846afd8-8c2c-45a4-aa27-bf16b9547884")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96555f13-7a43-48b5-9dd1-dafeb6c2a12f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR057"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -3019,33 +2192,24 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR062")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5VL")
-		(at 165.1 87.63 0)
+		(lib_id "Relay:G2RL-1A")
+		(at 115.57 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0c54921-1425-47ac-928d-dbeb0c123ae3")
-		(property "Reference" "#PWR066"
-			(at 165.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VL"
-			(at 167.64 86.3599 0)
+		(uuid "9b7e3134-76c1-4028-9117-0822d535e980")
+		(property "Reference" "K3"
+			(at 127 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,8 +2217,27 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 87.63 0)
+		(property "Value" "G2RL-1A"
+			(at 127 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,8 +2245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 87.63 0)
+		(property "Description" "General Purpose Low Profile Relay SPST Through Hole, Omron G2RL series, Normally Open, 12A 250VAC"
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,22 +2254,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VL\""
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "13"
+			(uuid "5595f33e-b0e0-45f2-8f63-1c05e3cd6fea")
 		)
-		(pin "1"
-			(uuid "4ca0367e-5b0c-4c5b-96c4-f3a9b84d546a")
+		(pin "14"
+			(uuid "11b7f06b-cf7b-4e7c-be90-345bb1a3cdb2")
+		)
+		(pin "A1"
+			(uuid "cc133543-e556-4e63-a246-1a589aa5e790")
+		)
+		(pin "A2"
+			(uuid "065cbdb4-e0be-48bd-b81a-05eedca9a7cf")
 		)
 		(instances
-			(project "Precharge_PCB"
+			(project ""
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR066")
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -3094,16 +2277,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 107.95 0)
+		(at 66.04 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2153aa7-abc0-439f-89fc-d8abc7b1b91d")
-		(property "Reference" "#PWR065"
-			(at 142.24 114.3 0)
+		(uuid "c2832848-7197-47bf-97ca-abff5ddec71b")
+		(property "Reference" "#PWR056"
+			(at 66.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +2295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 113.03 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +2303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 107.95 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +2312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 107.95 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +2321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 107.95 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,12 +2330,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "28e493ae-2884-4b9a-8dda-847d2ac9d6a2")
+			(uuid "79a2f53a-ed18-4e2b-b0fc-c27e8b6f7cbc")
 		)
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR065")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3168,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e376fa87-26de-41bd-8f15-5d9647d024bd")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR058"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -3218,90 +2401,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "G2RL-2A_1")
-		(lib_id "Relay:G2RL-2A")
-		(at 152.4 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9362490-982b-46d8-b441-04fc5c9fa6ba")
-		(property "Reference" "K7"
-			(at 168.91 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G7L-2A-X-SI_DC12"
-			(at 168.91 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:G7L2AXSIDC12"
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 152.4 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Low Profile Relay DPST Through Hole, Omron G2RL series, Normally Open,  8A 250VAC"
-			(at 152.4 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "9b62911a-0da3-4639-a01d-8290fb352f5f")
-		)
-		(pin "1"
-			(uuid "510b3c63-7514-47d9-8f04-767aabf54710")
-		)
-		(pin "+"
-			(uuid "18e13b7b-091a-4fb6-9551-762cf70416df")
-		)
-		(pin "4"
-			(uuid "de29e812-0e9e-4e1c-a881-ec213533221a")
-		)
-		(pin "6"
-			(uuid "844a755d-e0e4-4a08-adb4-6e667a3ab100")
-		)
-		(pin "-"
-			(uuid "bf04354b-3156-465e-9bdc-d1fd1e7df51c")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "K7")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
