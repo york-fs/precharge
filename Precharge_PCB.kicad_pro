@@ -583,25 +583,25 @@
           "group_by": false,
           "label": "Dist",
           "name": "Dist",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Dist #",
           "name": "Dist #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mfr",
           "name": "Mfr",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mfr #",
           "name": "Mfr #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
