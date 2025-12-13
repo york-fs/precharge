@@ -965,7 +965,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286) (xy 2.667 -2.286)
+						(xy 2.667 -0.254) (xy 2.667 -2.286)
 					)
 					(stroke
 						(width 0.3556)
@@ -1400,6 +1400,284 @@
 				)
 			)
 			(symbol "LM393_1_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LM393_2"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM393_2_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -3047,6 +3325,12 @@
 		(uuid "25df6df3-c06a-4e4c-a805-901736cdce02")
 	)
 	(junction
+		(at 120.65 -40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26938242-3cd7-4337-8c67-6237ac6b8ccd")
+	)
+	(junction
 		(at 196.85 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3260,6 +3544,10 @@
 		(at 91.44 -31.75)
 		(uuid "d4d368fa-bd60-4997-a252-846507bd363e")
 	)
+	(no_connect
+		(at 137.16 -43.18)
+		(uuid "f24d1d32-c07a-4fa4-8d93-65bfa55d3e2c")
+	)
 	(polyline
 		(pts
 			(xy 66.04 101.6) (xy 66.04 151.13)
@@ -3369,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "0fe59ac2-8eae-45c6-b1e1-4043560e9f57")
+	)
+	(wire
+		(pts
+			(xy 120.65 -40.64) (xy 120.65 -45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1017522d-9d11-4985-b47b-32382c281b57")
 	)
 	(wire
 		(pts
@@ -3519,6 +3817,16 @@
 			(type default)
 		)
 		(uuid "25c63c70-cded-40e8-be98-6da8eda18c3d")
+	)
+	(wire
+		(pts
+			(xy 120.65 -39.37) (xy 120.65 -40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b6135e-0a8d-4d2e-bd00-48af2dde1054")
 	)
 	(wire
 		(pts
@@ -4852,6 +5160,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 -45.72) (xy 121.92 -45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb15f2f-334a-42a6-99bd-d778b1be1af8")
+	)
+	(wire
+		(pts
 			(xy 20.32 34.29) (xy 20.32 35.56)
 		)
 		(stroke
@@ -5049,6 +5367,16 @@
 			(type default)
 		)
 		(uuid "e599b78a-374e-465f-863f-d9ae82d1411b")
+	)
+	(wire
+		(pts
+			(xy 120.65 -40.64) (xy 121.92 -40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e709e0da-89a9-49f1-9f7f-2eec3e077e22")
 	)
 	(wire
 		(pts
@@ -6531,7 +6859,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LM393_1")
+		(lib_name "LM393_2")
 		(lib_id "Comparator:LM393")
 		(at 64.77 -26.67 0)
 		(unit 1)
@@ -6612,6 +6940,93 @@
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
 					(reference "U7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM393_1")
+		(lib_id "Comparator:LM393")
+		(at 129.54 -43.18 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247bfaed-b4ae-4dee-a0b9-3ff41e98181f")
+		(property "Reference" "U7"
+			(at 129.54 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 129.54 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 129.54 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 129.54 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 129.54 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e91ed9-ce16-4b96-9030-0e5d9860e779")
+		)
+		(pin "2"
+			(uuid "b5fc24ec-2372-44b0-97e9-ad3746610264")
+		)
+		(pin "3"
+			(uuid "3c160895-78eb-44c7-a237-ff5aeac1a35e")
+		)
+		(pin "5"
+			(uuid "9ced166d-a1a6-4d52-baba-3674380612da")
+		)
+		(pin "6"
+			(uuid "0547b9df-c671-4786-b9e8-bff4441862e2")
+		)
+		(pin "7"
+			(uuid "387572ba-002d-44ce-af85-1df8b9d1f2e6")
+		)
+		(pin "4"
+			(uuid "e2d0c1ed-3397-40b0-a091-a240d77f075f")
+		)
+		(pin "8"
+			(uuid "2ae6689c-068c-4888-a4fa-b220cd6b5407")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -9040,6 +9455,72 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 120.65 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861a409a-dcb9-42c2-bf4b-7e87a7d24ad4")
+		(property "Reference" "#PWR094"
+			(at 120.65 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 120.65 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 120.65 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b909227-dbe0-468e-9b64-12e5043c45f1")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11601,7 +12082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
 			(at 83.82 -29.21 0)
 			(effects
 				(font
