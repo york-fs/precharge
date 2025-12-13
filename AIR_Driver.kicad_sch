@@ -1448,7 +1448,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "439fba8f-c055-4f7d-938c-f56cc4c55ad0")
 		(property "Reference" "#PWR048"
 			(at 116.84 60.96 0)
@@ -1896,7 +1895,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a02981b6-28ae-4ed6-a44d-e7223c92113b")
 		(property "Reference" "D18"
 			(at 92.71 78.7399 90)
