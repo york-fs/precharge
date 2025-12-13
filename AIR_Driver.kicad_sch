@@ -1055,26 +1055,6 @@
 		)
 		(uuid "3a0ddde0-319c-4a78-9afd-e11e13553e65")
 	)
-	(text "+"
-		(exclude_from_sim no)
-		(at 167.132 94.742 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4b326666-8df3-4443-8382-3be1dafbb2ba")
-	)
-	(text "-"
-		(exclude_from_sim no)
-		(at 169.672 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0b1e083-4d72-4171-a145-199b9d1bc58d")
-	)
 	(junction
 		(at 116.84 67.31)
 		(diameter 0)
