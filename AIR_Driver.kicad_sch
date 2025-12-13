@@ -1371,6 +1371,121 @@
 		(uuid "d6524039-d5dd-473c-83c9-1ea18037f560")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 123.19 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05a5c538-06ff-4413-a5d8-bfde091ad6cf")
+		(property "Reference" "J6"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yfs:MolexMicrofitPlus1x4"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "538-215760-1004"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "2157601004"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cbc85020-3487-4cd8-b84c-bfe01adfd0c7")
+		)
+		(pin "3"
+			(uuid "8dd2f28d-615c-44f9-a37d-1f77391535e6")
+		)
+		(pin "2"
+			(uuid "cb1562c3-5920-4a7a-8dde-908de490fbf0")
+		)
+		(pin "1"
+			(uuid "62e67fe9-f1c3-4f9c-9455-583c7880cfa5")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VL")
 		(at 63.5 68.58 0)
 		(unit 1)
@@ -1728,86 +1843,6 @@
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 123.19 78.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66cfd411-5358-4de6-9f5b-4a6e2d912844")
-		(property "Reference" "J8"
-			(at 125.73 78.7401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MolexMicrofitPlus"
-			(at 125.476 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfadb812-51e9-4b1e-9fc6-d6a4e0d84b06")
-		)
-		(pin "3"
-			(uuid "7b36e878-fb99-4a36-83c4-e7abf350335c")
-		)
-		(pin "2"
-			(uuid "01c9fd01-3528-4964-996a-0947e747dadd")
-		)
-		(pin "4"
-			(uuid "ac1eb363-4afe-4026-8a04-53872e49c2a5")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "J7")
-					(unit 1)
-				)
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "J8")
 					(unit 1)
 				)
 			)
