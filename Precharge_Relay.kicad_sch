@@ -602,131 +602,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5VL"
 			(power)
 			(pin_numbers
@@ -1339,9 +1214,9 @@
 		)
 		(uuid "9e5ef49f-a4d8-4b43-9438-77f7a9b9b780")
 	)
-	(text "Relay Driver"
+	(text "Precharge Relay"
 		(exclude_from_sim no)
-		(at 72.39 44.45 0)
+		(at 35.56 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,22 +1227,6 @@
 			(justify left)
 		)
 		(uuid "b30bf67b-de43-4b9d-88aa-fd11f35bbbbf")
-	)
-	(text "Contacts have polarity\n(arc prevention)"
-		(exclude_from_sim no)
-		(at 111.252 45.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e678ec11-f0ad-490b-ba20-79258ae2b713")
-	)
-	(junction
-		(at 104.14 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "620fba44-82c1-43dd-a612-84432ce25133")
 	)
 	(junction
 		(at 58.42 83.82)
@@ -1386,6 +1245,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b507ea72-cd1f-4cc8-b579-12635c157955")
+	)
+	(junction
+		(at 110.49 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee33f105-144f-45cf-90f6-9efea0103654")
 	)
 	(junction
 		(at 120.65 73.66)
@@ -1435,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 104.14 55.88)
+			(xy 99.06 55.88) (xy 110.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1485,16 +1350,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 54.61) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb99097-b3a0-4820-851d-fd48201bf12a")
-	)
-	(wire
-		(pts
 			(xy 58.42 68.58) (xy 58.42 83.82)
 		)
 		(stroke
@@ -1512,6 +1367,16 @@
 			(type default)
 		)
 		(uuid "44627c16-bbf8-436e-9473-15a97c4b5a24")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcc8552-83e1-425f-adce-42cc2fb65b9e")
 	)
 	(wire
 		(pts
@@ -1555,16 +1420,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa794e82-08c1-4dbc-8a55-02545aed7f02")
-	)
-	(wire
-		(pts
 			(xy 120.65 82.55) (xy 120.65 81.28)
 		)
 		(stroke
@@ -1602,6 +1457,28 @@
 			(type default)
 		)
 		(uuid "fb038047-16c6-4eff-9597-a9bd25d990ab")
+	)
+	(global_label "SHUTDOWN_FINAL"
+		(shape input)
+		(at 110.49 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "5f9f9f9e-12c3-477b-879b-de69a918cb8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 39.4027 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "V_TS"
 		(shape output)
@@ -2162,7 +2039,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ff9fd10-3a62-4481-a19c-b7fbbeecdbf9")
 		(property "Reference" "#PWR055"
 			(at 66.04 57.15 0)
@@ -2174,7 +2050,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 66.04 48.26 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,71 +2091,6 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 104.14 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96555f13-7a43-48b5-9dd1-dafeb6c2a12f")
-		(property "Reference" "#PWR057"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfcf91da-cb39-43b3-9a2f-3bd1a7007661")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2442,7 +2253,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e376fa87-26de-41bd-8f15-5d9647d024bd")
 		(property "Reference" "#PWR058"
 			(at 110.49 104.14 0)
@@ -2454,11 +2264,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 102.87 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
