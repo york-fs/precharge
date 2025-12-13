@@ -2473,7 +2473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C1591"
 			(at 107.95 71.12 0)
 			(effects
 				(font
@@ -2491,7 +2491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "CL10B104KB8NNNC"
 			(at 107.95 71.12 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C1591"
 			(at 73.66 71.12 0)
 			(effects
 				(font
@@ -2928,7 +2928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "CL10B104KB8NNNC"
 			(at 73.66 71.12 0)
 			(effects
 				(font
@@ -3119,6 +3119,42 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "595-TLV6002QDRQ1"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "TLV6002QDRQ1"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -3423,6 +3459,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C5199872"
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "CL10B105KB8NQNC"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -3861,6 +3933,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C25804"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF1002T5E"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47962b7c-64f6-4047-b819-0eec3c7cc0f0")
 		)
@@ -4138,6 +4246,42 @@
 		)
 		(property "Description" "Precision, 5-V Input, Reinforced Isolated Amplifier"
 			(at 77.216 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "595-AMC1351QDWVRQ1"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "AMC1351QDWVRQ1"
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,6 +4909,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C25804"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 199.39 121.92 0)
 			(effects
 				(font
