@@ -13365,7 +13365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "yfs:MolexMicrofitPlus1x8"
 			(at 39.37 90.17 0)
 			(effects
 				(font
@@ -18664,7 +18664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 156.21 119.38 0)
 			(effects
 				(font

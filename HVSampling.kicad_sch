@@ -3683,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "yfs:DPU01M05"
 			(at 177.8 35.56 0)
 			(effects
 				(font
