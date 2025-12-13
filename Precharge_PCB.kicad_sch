@@ -2967,7 +2967,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U3"
 				(at 4.7341 -40.64 0)
 				(effects
 					(font
@@ -3752,7 +3752,7 @@
 					(alternate "USART2_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 17.78 25.4 180)
+					(at 17.78 27.94 180)
 					(length 2.54)
 					(name "PA2"
 						(effects
@@ -6880,10 +6880,6 @@
 		(uuid "037dd731-9fdb-42dd-ad44-84a2de46a795")
 	)
 	(no_connect
-		(at 243.84 90.17)
-		(uuid "0d13cd0b-744b-46ac-884d-4b27ac62be2a")
-	)
-	(no_connect
 		(at 243.84 95.25)
 		(uuid "166f60c3-ff7a-42ae-97bb-dd9d5d6e346b")
 	)
@@ -6910,6 +6906,10 @@
 	(no_connect
 		(at 243.84 107.95)
 		(uuid "7a05eca0-6b84-4cf2-878b-5b931fd49ed6")
+	)
+	(no_connect
+		(at 243.84 77.47)
+		(uuid "8ee2f811-9159-4222-94c5-dede0580f64d")
 	)
 	(no_connect
 		(at 243.84 138.43)
@@ -7421,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 85.09) (xy 245.11 85.09)
+			(xy 243.84 87.63) (xy 245.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7528,16 +7528,6 @@
 			(type default)
 		)
 		(uuid "5178ec21-4362-4fcb-bb87-26baa7632546")
-	)
-	(wire
-		(pts
-			(xy 243.84 77.47) (xy 256.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f6120a-d448-4bdf-a583-91c2a0f3903c")
 	)
 	(wire
 		(pts
@@ -8251,6 +8241,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 82.55) (xy 256.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bec0a4-c9d0-4890-a9b2-5ccff3252e40")
+	)
+	(wire
+		(pts
 			(xy 27.94 123.19) (xy 29.21 123.19)
 		)
 		(stroke
@@ -8371,16 +8371,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 87.63) (xy 245.11 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae10145-82b3-424a-8c5d-7543e0e21143")
-	)
-	(wire
-		(pts
 			(xy 118.11 104.14) (xy 118.11 105.41)
 		)
 		(stroke
@@ -8461,6 +8451,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 80.01) (xy 256.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38d009c-ee34-4ea6-9b47-9c3c0f2f08b4")
+	)
+	(wire
+		(pts
 			(xy 196.85 125.73) (xy 208.28 125.73)
 		)
 		(stroke
@@ -8488,16 +8488,6 @@
 			(type default)
 		)
 		(uuid "b69f19f1-9634-4739-857a-f660e0c82456")
-	)
-	(wire
-		(pts
-			(xy 243.84 80.01) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a2f92c-9669-4a4d-9632-6292af47273a")
 	)
 	(wire
 		(pts
@@ -9041,6 +9031,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 90.17) (xy 245.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68ee7b9-a188-44d8-abf9-18ec5d668903")
+	)
+	(wire
+		(pts
 			(xy 139.7 133.35) (xy 138.43 133.35)
 		)
 		(stroke
@@ -9380,7 +9380,7 @@
 		(uuid "61421f7a-d9bf-474e-9740-0f7dcb864e39")
 	)
 	(label "AIR-_CMD"
-		(at 245.11 87.63 0)
+		(at 245.11 90.17 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9530,7 +9530,7 @@
 		(uuid "eb193f23-cbe7-4ddd-bd4f-ea57fc8cf81a")
 	)
 	(label "AIR+_CMD"
-		(at 245.11 85.09 0)
+		(at 245.11 87.63 0)
 		(effects
 			(font
 				(size 1 1)
@@ -19930,7 +19930,7 @@
 		)
 	)
 	(sheet
-		(at 256.54 73.66)
+		(at 256.54 76.2)
 		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19946,7 +19946,7 @@
 		)
 		(uuid "5111e28e-8231-41c0-b506-a567affaf28a")
 		(property "Sheetname" "HV Sampling"
-			(at 256.54 72.8996 0)
+			(at 256.54 75.4396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19955,7 +19955,7 @@
 			)
 		)
 		(property "Sheetfile" "HVSampling.kicad_sch"
-			(at 256.54 84.4534 0)
+			(at 256.54 86.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19964,7 +19964,7 @@
 			)
 		)
 		(pin "Accumulator" output
-			(at 256.54 77.47 180)
+			(at 256.54 80.01 180)
 			(uuid "68159190-bad8-403f-9d46-f0525a750a16")
 			(effects
 				(font
@@ -19974,7 +19974,7 @@
 			)
 		)
 		(pin "Tractive System" output
-			(at 256.54 80.01 180)
+			(at 256.54 82.55 180)
 			(uuid "c63a1ca2-d1b5-4c8e-9917-72b8c89b48b6")
 			(effects
 				(font
