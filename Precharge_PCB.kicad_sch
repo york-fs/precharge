@@ -5045,8 +5045,12 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5146,8 +5150,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+12V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5542,8 +5545,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5619,8 +5626,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5640,8 +5646,12 @@
 		)
 		(symbol "power:GND1"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5717,8 +5727,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6903,6 +6912,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 133.35) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007f3bbc-680e-4a18-8847-72f6de57a1be")
+	)
+	(wire
+		(pts
 			(xy 243.84 135.89) (xy 269.24 135.89)
 		)
 		(stroke
@@ -7290,16 +7309,6 @@
 			(type default)
 		)
 		(uuid "2b897455-8383-4af7-93d0-54a826fc8335")
-	)
-	(wire
-		(pts
-			(xy 196.8509 135.89) (xy 208.28 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf5b0cf-2d6d-4292-b6d0-2539c99a0867")
 	)
 	(wire
 		(pts
@@ -7730,6 +7739,16 @@
 			(type default)
 		)
 		(uuid "638a1930-11b1-4bdb-8680-58c68cee195e")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6422b588-6c78-4e51-99c4-152c8497b9fd")
 	)
 	(wire
 		(pts
@@ -8303,16 +8322,6 @@
 	)
 	(wire
 		(pts
-			(xy 197.0627 133.35) (xy 208.28 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a668ba30-ba7d-4d71-9818-d1e3a7adacbb")
-	)
-	(wire
-		(pts
 			(xy 260.35 105.41) (xy 261.62 105.41)
 		)
 		(stroke
@@ -8413,6 +8422,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 135.89) (xy 191.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a689a3-41e4-4437-be73-ba88e6fdd70a")
+	)
+	(wire
+		(pts
 			(xy 243.84 133.35) (xy 256.54 133.35)
 		)
 		(stroke
@@ -8420,16 +8439,6 @@
 			(type default)
 		)
 		(uuid "b1ca9716-540f-4e83-ba97-29e54788014c")
-	)
-	(wire
-		(pts
-			(xy 186.69 135.89) (xy 191.7709 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b314e101-040b-4784-a526-dc4158b02864")
 	)
 	(wire
 		(pts
@@ -8450,6 +8459,16 @@
 			(type default)
 		)
 		(uuid "b3dc3f0e-8d82-41a2-9c0c-4294760a8a95")
+	)
+	(wire
+		(pts
+			(xy 196.85 135.89) (xy 208.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52dedee-4669-491c-989b-a51f3a36c09d")
 	)
 	(wire
 		(pts
@@ -9210,16 +9229,6 @@
 			(type default)
 		)
 		(uuid "fa1595c4-cd72-4800-b646-9f93aa1d342a")
-	)
-	(wire
-		(pts
-			(xy 186.69 133.35) (xy 191.9827 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbaf77d0-5da0-4f1d-96b0-0eb4615a978d")
 	)
 	(wire
 		(pts
@@ -10507,7 +10516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 113.03 0)
 			(effects
 				(font
@@ -11351,7 +11360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -12444,7 +12453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 102.87 0)
 			(effects
 				(font
@@ -14456,7 +14465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 64.77 146.05 0)
 			(effects
 				(font
@@ -15610,7 +15619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -17032,7 +17041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 144.78 0)
 			(effects
 				(font
@@ -18238,7 +18247,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 194.5227 133.35 270)
+		(at 194.31 133.35 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18247,7 +18256,7 @@
 		(dnp no)
 		(uuid "d6296a92-a67b-4c37-8caf-0f773ce0adee")
 		(property "Reference" "R13"
-			(at 190.7127 132.08 90)
+			(at 190.5 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,7 +18264,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 198.3327 132.08 90)
+			(at 198.12 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18263,7 +18272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18272,7 +18281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18281,7 +18290,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18290,7 +18299,7 @@
 			)
 		)
 		(property "Dist #" "C23138"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18308,7 @@
 			)
 		)
 		(property "Mfr" "Uni-Royal"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,7 +18317,7 @@
 			)
 		)
 		(property "Mfr #" "0603WAF3300T5E"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18317,7 +18326,7 @@
 			)
 		)
 		(property "Dist" "LCSC"
-			(at 194.5227 133.35 0)
+			(at 194.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18779,7 +18788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 144.78 0)
 			(effects
 				(font
@@ -18802,7 +18811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 194.3109 135.89 270)
+		(at 194.31 135.89 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18811,7 +18820,7 @@
 		(dnp no)
 		(uuid "e4346213-a111-4bd2-b6ef-c7a8f76c6fab")
 		(property "Reference" "R12"
-			(at 190.5009 134.62 90)
+			(at 190.5 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18819,7 +18828,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 198.1209 134.62 90)
+			(at 198.12 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18827,7 +18836,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18836,7 +18845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18845,7 +18854,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18854,7 +18863,7 @@
 			)
 		)
 		(property "Dist #" "C23138"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +18872,7 @@
 			)
 		)
 		(property "Mfr" "Uni-Royal"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18872,7 +18881,7 @@
 			)
 		)
 		(property "Mfr #" "0603WAF3300T5E"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18881,7 +18890,7 @@
 			)
 		)
 		(property "Dist" "LCSC"
-			(at 194.3109 135.89 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19675,7 +19684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 101.6 0)
 			(effects
 				(font
