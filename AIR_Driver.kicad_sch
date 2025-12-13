@@ -1397,7 +1397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3078e18d-259d-456a-80f5-33f87dfad918")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR045"
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -1442,11 +1442,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3430f839-f10a-48d4-b1d4-cee703d58e75")
+			(uuid "03396fd7-0f6f-46e9-9a64-db20d55919fc")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -1467,7 +1467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439fba8f-c055-4f7d-938c-f56cc4c55ad0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR048"
 			(at 116.84 60.96 0)
 			(effects
 				(font
@@ -1512,11 +1512,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c41b4be8-8555-42cf-bbc6-615269b07f3e")
+			(uuid "3ab97797-4512-41e3-9fb1-19a23402a7cb")
 		)
 		(instances
-			(project ""
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -1537,7 +1537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54019982-7ceb-473b-b246-c6dab3938980")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 105.41 96.5199 0)
 			(effects
 				(font
@@ -1586,17 +1586,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "746e39ed-5458-4654-9900-0cea8dd255e1")
+			(uuid "3a6eca26-a69c-407a-be08-6956743d2518")
 		)
 		(pin "2"
-			(uuid "a69873f5-4637-4130-bf51-12fba3e2440d")
+			(uuid "f1a14006-9bf3-400e-8101-ed53d01561a1")
 		)
 		(pin "3"
-			(uuid "e53b5c85-48f0-406c-9482-9753b8b21944")
+			(uuid "bb8322e4-3586-4444-a942-9fd7b3c403a0")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "Q6")
 					(unit 1)
 				)
@@ -1617,7 +1617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6370493e-7f46-4a49-b385-da7ceb3f14a8")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 119.38 60.9599 0)
 			(effects
 				(font
@@ -1663,14 +1663,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "077ddadd-f2ed-49d6-bbf7-219dbff89b42")
+			(uuid "ad70e0a7-8738-458b-b856-68acb25745d7")
 		)
 		(pin "2"
-			(uuid "20bf9456-36eb-498e-937d-15e13440fb9e")
+			(uuid "70fc5421-9634-4688-ad9d-c7903148a6a6")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "R18")
 					(unit 1)
 				)
@@ -1691,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6487bf12-76fb-455c-9d85-db86864224b9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -1736,11 +1736,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5f31de8-2569-46b8-be65-e06e23328201")
+			(uuid "0f24ec86-f584-46ba-b3e0-e7cc152492b0")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -1761,7 +1761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66cfd411-5358-4de6-9f5b-4a6e2d912844")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 125.73 78.7401 0)
 			(effects
 				(font
@@ -1807,21 +1807,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "02066964-0ce3-41c3-a98a-f909173a9500")
+			(uuid "bfadb812-51e9-4b1e-9fc6-d6a4e0d84b06")
 		)
 		(pin "3"
-			(uuid "2f17d7f4-355e-4d16-b219-c7889eabb73d")
+			(uuid "7b36e878-fb99-4a36-83c4-e7abf350335c")
 		)
 		(pin "2"
-			(uuid "00428f48-372e-4e39-8068-55b6013bbd98")
+			(uuid "01c9fd01-3528-4964-996a-0947e747dadd")
 		)
 		(pin "4"
-			(uuid "bf854e54-1557-49b6-a260-c73b31bc7933")
+			(uuid "ac1eb363-4afe-4026-8a04-53872e49c2a5")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
-					(reference "J9")
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
@@ -1841,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d67161-de8d-4aa4-95c7-32ac4a5fa7b0")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 66.04 72.3899 0)
 			(effects
 				(font
@@ -1887,14 +1887,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c730c39a-2807-435b-a396-197b16b167c0")
+			(uuid "9ff206df-ecdd-4a13-becc-d2a0e337150e")
 		)
 		(pin "2"
-			(uuid "26dd376b-3d66-4a32-a26c-adf123780298")
+			(uuid "d1b16456-5cd5-448e-b910-1198c486b1d2")
 		)
 		(instances
-			(project ""
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "R17")
 					(unit 1)
 				)
@@ -1915,7 +1915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a02981b6-28ae-4ed6-a44d-e7223c92113b")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 92.71 78.7399 90)
 			(effects
 				(font
@@ -1979,15 +1979,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a70c077-8e4f-4468-9acb-33f79205f43c")
+			(uuid "c8294c2c-81aa-4d0f-8e47-fe6a203d1b41")
 		)
 		(pin "1"
-			(uuid "964ecd38-ddac-444b-b91c-6043c38be6e6")
+			(uuid "4e8f7c43-b681-4459-80cc-6ec6e784fde1")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
-					(reference "D19")
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
@@ -2007,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56a029d-d737-4c06-9b0c-249b8eff0a61")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -2053,11 +2053,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e02751e-1167-40ab-99cb-1c2d4c5bef00")
+			(uuid "03c5c2db-ee5f-4182-9858-fa32a7035615")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -2077,7 +2077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c87d4351-4ae4-4a75-afea-4cece06acb0c")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 67.31 82.5499 0)
 			(effects
 				(font
@@ -2126,17 +2126,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b9bbd64-282e-4b98-9abe-5bcdff9c37ee")
+			(uuid "df3896be-eb43-413a-b585-9497d12cbb20")
 		)
 		(pin "2"
-			(uuid "79d8deaf-4ce3-4580-8c35-524ba1a73411")
+			(uuid "8e9002d9-dd66-4fa5-97b9-ed858ceb1ab5")
 		)
 		(pin "3"
-			(uuid "c2ce657b-bdab-4509-adb5-77cfd1a02825")
+			(uuid "a529832f-4315-4674-be85-439db1e70281")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "Q5")
 					(unit 1)
 				)
@@ -2157,7 +2157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3593f27-c732-4e36-befc-14a97e0e85b5")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR047"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -2202,11 +2202,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6641fb01-ced7-40fd-bd1b-c2e86b1cc988")
+			(uuid "6089f71b-767c-44a5-8388-fcbd007a86f5")
 		)
 		(instances
 			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/1adc5b19-21a4-403c-9ac5-63a929688c7f"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
 					(reference "#PWR052")
 					(unit 1)
 				)
