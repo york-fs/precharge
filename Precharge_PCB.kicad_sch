@@ -6261,7 +6261,7 @@
 	)
 	(rectangle
 		(start 91.44 15.24)
-		(end 157.48 46.99)
+		(end 165.1 46.99)
 		(stroke
 			(width 0)
 			(type solid)
@@ -6345,7 +6345,7 @@
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
-		(at 16.51 74.93 0)
+		(at 15.24 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6386,7 +6386,7 @@
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
-		(at 16.51 157.48 0)
+		(at 15.24 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6445,26 +6445,6 @@
 			(justify left)
 		)
 		(uuid "b20a5c85-817a-4d34-9fb4-c2d0a2d2bc38")
-	)
-	(text "AIR- Relay"
-		(exclude_from_sim no)
-		(at 21.59 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b223b164-8034-4e1c-83d0-60f2762d9124")
-	)
-	(text "AIR+ Relay"
-		(exclude_from_sim no)
-		(at 21.59 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b6597389-2df1-4048-8bd9-fa0af4490ec0")
 	)
 	(text "Precharge Relay"
 		(exclude_from_sim no)
@@ -6563,6 +6543,12 @@
 		(uuid "025eb4c0-4f0c-445a-bec2-38b3eaab9d65")
 	)
 	(junction
+		(at 29.21 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0900296c-d251-4179-b15d-cf4b5d607b8c")
+	)
+	(junction
 		(at 176.53 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6611,6 +6597,12 @@
 		(uuid "3d9328b7-7431-40f5-bf24-41c16890e308")
 	)
 	(junction
+		(at 27.94 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48af2e70-f38a-46a1-aaf9-cffc0121ec42")
+	)
+	(junction
 		(at 226.06 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6639,6 +6631,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6567197a-e960-4e74-85e7-da73f65ee91c")
+	)
+	(junction
+		(at 27.94 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692e7d65-c741-4ef8-a41c-f9b9ddcb81d3")
 	)
 	(junction
 		(at 172.72 87.63)
@@ -7212,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 35.56) (xy 33.02 35.56)
+			(xy 27.94 35.56) (xy 29.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7282,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 55.88 58.42)
+			(xy 53.34 58.42) (xy 52.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7432,6 +7430,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 95.25) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a33e44-3614-457f-a0aa-2d2c083dd773")
+	)
+	(wire
+		(pts
 			(xy 267.97 119.38) (xy 269.24 119.38)
 		)
 		(stroke
@@ -7529,6 +7537,16 @@
 			(type default)
 		)
 		(uuid "509efbef-ea05-43df-ad02-aae53804c738")
+	)
+	(wire
+		(pts
+			(xy 24.13 118.11) (xy 24.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51327751-7732-4127-bd72-046d082a6acb")
 	)
 	(wire
 		(pts
@@ -7712,6 +7730,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616fbd77-1c28-4f6f-8278-72f6f04f70b8")
+	)
+	(wire
+		(pts
 			(xy 57.15 176.53) (xy 68.58 176.53)
 		)
 		(stroke
@@ -7752,7 +7780,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 139.7 31.75)
+			(xy 143.51 31.75) (xy 144.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7892,6 +7920,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 119.38) (xy 27.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ea1b83-23e5-4021-856f-b3cd6d7db92c")
+	)
+	(wire
+		(pts
 			(xy 270.51 140.97) (xy 270.51 142.24)
 		)
 		(stroke
@@ -7952,13 +7990,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 95.25) (xy 34.29 95.25)
+			(xy 27.94 95.25) (xy 29.21 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79a9ecf9-e57b-40cd-b0c5-cbcebe01ec65")
+	)
+	(wire
+		(pts
+			(xy 24.13 123.19) (xy 24.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d9ad6b-c29c-452a-a6f4-698ea70e09be")
 	)
 	(wire
 		(pts
@@ -7982,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 31.75) (xy 110.49 31.75)
+			(xy 114.3 31.75) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8202,7 +8250,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 33.02 54.61)
+			(xy 27.94 54.61) (xy 29.21 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8292,7 +8340,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 35.56) (xy 55.88 35.56)
+			(xy 53.34 35.56) (xy 52.07 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8502,6 +8550,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 121.92) (xy 27.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71afc41-35a3-42dd-8d34-724456bb5b19")
+	)
+	(wire
+		(pts
 			(xy 234.95 29.21) (xy 234.95 30.48)
 		)
 		(stroke
@@ -8602,7 +8660,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 54.61) (xy 55.88 54.61)
+			(xy 53.34 54.61) (xy 52.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8712,7 +8770,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 55.88 39.37)
+			(xy 53.34 39.37) (xy 52.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9402,7 +9460,7 @@
 	)
 	(global_label "AIR+_CMD"
 		(shape input)
-		(at 31.75 35.56 180)
+		(at 27.94 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9412,7 +9470,7 @@
 		)
 		(uuid "0031e14f-9a64-4012-bb94-2efc5066b39b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9235 35.56 0)
+			(at 18.1135 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +9702,7 @@
 	)
 	(global_label "AIR-_INT"
 		(shape output)
-		(at 57.15 58.42 0)
+		(at 53.34 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9654,7 +9712,7 @@
 		)
 		(uuid "4660949e-fffc-4796-aed4-b1a9a9ca4f57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1193 58.42 0)
+			(at 62.3093 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +9746,7 @@
 	)
 	(global_label "AIR-_CMD"
 		(shape input)
-		(at 31.75 54.61 180)
+		(at 27.94 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9698,7 +9756,7 @@
 		)
 		(uuid "689f6477-5ed7-4014-85af-b3f2e82941c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9235 54.61 0)
+			(at 18.1135 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9834,7 @@
 	)
 	(global_label "AIR+_ACT"
 		(shape output)
-		(at 57.15 35.56 0)
+		(at 53.34 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9786,7 +9844,7 @@
 		)
 		(uuid "895a322b-9461-423f-a5ad-53723038bf59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4526 35.56 0)
+			(at 62.6426 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9900,7 @@
 	)
 	(global_label "AIR-_ACT"
 		(shape output)
-		(at 57.15 54.61 0)
+		(at 53.34 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9852,7 +9910,7 @@
 		)
 		(uuid "95906a77-5f1f-4a19-ad0a-dbe172d8bf6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4526 54.61 0)
+			(at 62.6426 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9944,7 @@
 	)
 	(global_label "PRECHARGE_CMD"
 		(shape input)
-		(at 109.22 31.75 180)
+		(at 114.3 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9896,7 +9954,7 @@
 		)
 		(uuid "9fcd11c9-9708-4a2c-9d43-3ec45d566266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2506 31.75 0)
+			(at 99.3306 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9988,7 @@
 	)
 	(global_label "AIR+_INT"
 		(shape output)
-		(at 57.15 39.37 0)
+		(at 53.34 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9940,7 +9998,7 @@
 		)
 		(uuid "a9b49449-fa2f-4703-8ede-519c100c3f0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1193 39.37 0)
+			(at 62.3093 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,7 +10032,7 @@
 	)
 	(global_label "PRECHARGE_INT"
 		(shape output)
-		(at 139.7 31.75 0)
+		(at 144.78 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9984,7 +10042,7 @@
 		)
 		(uuid "c30df744-352c-47e8-8e8b-51fc66d4f784")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8122 31.75 0)
+			(at 158.8922 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,7 +15452,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VL")
-		(at 33.02 95.25 90)
+		(at 27.94 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15402,7 +15460,7 @@
 		(dnp no)
 		(uuid "80ab1394-219f-4ae4-bce7-86b0dadb3595")
 		(property "Reference" "#PWR08"
-			(at 36.83 95.25 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +15469,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 29.21 95.2499 90)
+			(at 24.13 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15420,7 +15478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 95.25 0)
+			(at 27.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15429,7 +15487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 95.25 0)
+			(at 27.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +15496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VL\""
-			(at 33.02 95.25 0)
+			(at 27.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18194,6 +18252,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 24.13 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1022174-437a-4a58-8ffb-4b01f9f6e8ec")
+		(property "Reference" "#FLG05"
+			(at 24.13 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 24.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 24.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca08a28-d7b2-4d3f-bce3-d11f2a2e56fd")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 184.15 127 0)
 		(unit 1)
@@ -18838,6 +18963,73 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d63c1893-ba4f-4b8c-a2ed-bdcce462c63d")
+		(property "Reference" "#FLG02"
+			(at 29.21 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d61d8e-b1bd-426e-9a27-17e1c37f535b")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -19923,6 +20115,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 24.13 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef21196f-d9e1-4a53-934b-c53b209b6cfd")
+		(property "Reference" "#FLG04"
+			(at 24.13 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 24.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c567d72-8476-4851-827a-cba078482228")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 63.5 181.61 0)
 		(mirror y)
@@ -20421,7 +20680,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 50.8)
+		(at 29.21 50.8)
 		(size 22.86 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20437,7 +20696,7 @@
 		)
 		(uuid "002009e0-fc6e-484e-9acf-1c1ff1f04f91")
 		(property "Sheetname" "AIR- Driver"
-			(at 33.02 50.0396 0)
+			(at 29.21 50.0396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20446,7 +20705,7 @@
 			)
 		)
 		(property "Sheetfile" "AIR_Driver.kicad_sch"
-			(at 33.02 62.8634 0)
+			(at 29.21 62.8634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20455,7 +20714,7 @@
 			)
 		)
 		(pin "Signal" input
-			(at 33.02 54.61 180)
+			(at 29.21 54.61 180)
 			(uuid "e2383ec5-7718-4f14-91d4-1a533617d45b")
 			(effects
 				(font
@@ -20465,7 +20724,7 @@
 			)
 		)
 		(pin "Actual State" output
-			(at 55.88 54.61 0)
+			(at 52.07 54.61 0)
 			(uuid "19f13daf-04f1-4e03-ace8-90075083c6f5")
 			(effects
 				(font
@@ -20475,7 +20734,7 @@
 			)
 		)
 		(pin "Intended State" output
-			(at 55.88 58.42 0)
+			(at 52.07 58.42 0)
 			(uuid "a58b36d2-02f4-4b54-8e74-416e4d99883d")
 			(effects
 				(font
@@ -20493,7 +20752,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 31.75)
+		(at 29.21 31.75)
 		(size 22.86 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20509,7 +20768,7 @@
 		)
 		(uuid "25042107-483b-420f-bbcd-e84a850709aa")
 		(property "Sheetname" "AIR+ Driver"
-			(at 33.02 30.9896 0)
+			(at 29.21 30.9896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20518,7 +20777,7 @@
 			)
 		)
 		(property "Sheetfile" "AIR_Driver.kicad_sch"
-			(at 33.02 43.8134 0)
+			(at 29.21 43.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20527,7 +20786,7 @@
 			)
 		)
 		(pin "Signal" input
-			(at 33.02 35.56 180)
+			(at 29.21 35.56 180)
 			(uuid "95c4feef-591b-407d-9929-f1a1fb9386df")
 			(effects
 				(font
@@ -20537,7 +20796,7 @@
 			)
 		)
 		(pin "Actual State" output
-			(at 55.88 35.56 0)
+			(at 52.07 35.56 0)
 			(uuid "ce5e2b99-da98-4bfd-8f6e-9a9f7dd117d1")
 			(effects
 				(font
@@ -20547,7 +20806,7 @@
 			)
 		)
 		(pin "Intended State" output
-			(at 55.88 39.37 0)
+			(at 52.07 39.37 0)
 			(uuid "ad8c2582-769e-4826-bcff-9b24594bfcca")
 			(effects
 				(font
@@ -20627,7 +20886,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 26.67)
+		(at 115.57 26.67)
 		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20643,7 +20902,7 @@
 		)
 		(uuid "c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db")
 		(property "Sheetname" "Precharge Relay"
-			(at 110.49 25.9096 0)
+			(at 115.57 25.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20652,7 +20911,7 @@
 			)
 		)
 		(property "Sheetfile" "Precharge_Relay.kicad_sch"
-			(at 110.49 38.7334 0)
+			(at 115.57 38.7334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20661,7 +20920,7 @@
 			)
 		)
 		(pin "Signal" input
-			(at 110.49 31.75 180)
+			(at 115.57 31.75 180)
 			(uuid "7f0de100-ac97-444e-acb6-22b99c1f90ad")
 			(effects
 				(font
@@ -20671,7 +20930,7 @@
 			)
 		)
 		(pin "Intended State" output
-			(at 138.43 31.75 0)
+			(at 143.51 31.75 0)
 			(uuid "eb653dd2-c34a-4a21-a245-5bc35e190e5d")
 			(effects
 				(font

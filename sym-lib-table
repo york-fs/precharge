@@ -1,9 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "AMC1351")(type "KiCad")(uri "${KIPRJMOD}/Components/AMC1351/2024-02-25_16-29-49.kicad_sym")(options "")(descr ""))
-  (lib (name "SPU01M-05")(type "KiCad")(uri "${KIPRJMOD}/Components/SPU01M-05/2024-02-25_17-56-22.kicad_sym")(options "")(descr ""))
-  (lib (name "Components")(type "KiCad")(uri "${KIPRJMOD}/Components/Components.kicad_sym")(options "")(descr ""))
-  (lib (name "TLV1811")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV1811.kicad_sym")(options "")(descr ""))
-  (lib (name "MyLibrary")(type "KiCad")(uri "${KIPRJMOD}/MyLibrary.kicad_sym")(options "")(descr ""))
   (lib (name "yfs")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/yfs.kicad_sym")(options "")(descr ""))
 )
