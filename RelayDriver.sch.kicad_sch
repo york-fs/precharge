@@ -9,7 +9,7 @@
 		(date "2025-10-06")
 		(rev "${REVISION}")
 		(company "York Formula Student")
-		(comment 1 "Designed by Josh B and Logan C")
+		(comment 1 "Designed by Josh B, Logan C, and Owen S")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -1332,7 +1332,7 @@
 		)
 		(uuid "f1c5b4d5-3e4b-4c58-82bd-06791eca4b2c")
 	)
-	(global_label "Shutdown"
+	(global_label "SHUTDOWN_FINAL"
 		(shape input)
 		(at 101.6 73.66 90)
 		(fields_autoplaced yes)
@@ -1342,9 +1342,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1e9da621-f5af-47c7-816a-13663c40d9b4")
+		(uuid "1d2e5ada-0d12-4bf2-a494-7125132f4bc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 64.2143 90)
+			(at 101.6 58.4527 90)
 			(effects
 				(font
 					(size 1.27 1.27)

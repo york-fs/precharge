@@ -9,7 +9,7 @@
 		(date "2025-10-06")
 		(rev "${REVISION}")
 		(company "York Formula Student")
-		(comment 1 "Designed by Josh B and Logan C")
+		(comment 1 "Designed by Josh B, Logan C, and Owen S")
 	)
 	(lib_symbols
 		(symbol "AMC1351:AMC1351DWV"
@@ -5483,19 +5483,19 @@
 		)
 		(uuid "f2f3cd55-2f7f-46e6-91d7-ae1dfdf8cc85")
 	)
-	(global_label "V-PreCharge"
+	(global_label "V_PRECHARGE"
 		(shape input)
 		(at 20.32 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 			)
 			(justify left)
 		)
 		(uuid "40d77d3e-698d-496d-91f5-946a9ccee6fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.7028 25.4 0)
+			(at 33.0036 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,19 +5505,19 @@
 			)
 		)
 	)
-	(global_label "Precharge ACT"
-		(shape input)
+	(global_label "PRECHARGE_ACT"
+		(shape output)
 		(at 101.6 -26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 			)
 			(justify left)
 		)
 		(uuid "5095ffef-c704-4b5c-9d58-69bc657d524d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.4342 -26.67 0)
+			(at 116.0455 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5527,7 @@
 			)
 		)
 	)
-	(global_label "V-TS"
+	(global_label "V_TS"
 		(shape input)
 		(at 20.32 111.76 0)
 		(fields_autoplaced yes)
@@ -5539,7 +5539,7 @@
 		)
 		(uuid "da09df07-9dca-40d5-af47-e1c06e21b2d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4798 111.76 0)
+			(at 26.0036 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

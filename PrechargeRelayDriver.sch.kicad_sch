@@ -9,7 +9,7 @@
 		(date "2025-10-06")
 		(rev "${REVISION}")
 		(company "York Formula Student")
-		(comment 1 "Designed by Josh B and Logan C")
+		(comment 1 "Designed by Josh B, Logan C, and Owen S")
 	)
 	(lib_symbols
 		(symbol "Device:R"
@@ -1262,6 +1262,46 @@
 		)
 		(uuid 256f7e9a-e1b5-4aea-8ae5-39139d261e41)
 	)
+	(text "APLR1000 1K 1000J Peak Energy\nAEC-Q200"
+		(exclude_from_sim no)
+		(at 63.5 104.14 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "4679685d-d73d-4e54-9cb1-7b3ab2e6d942")
+	)
+	(text "https://s.resistor.today/shop/products/epdf/APLR.pdf"
+		(exclude_from_sim no)
+		(at 64.77 100.33 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "591ad7b0-0730-4bed-9194-9e0c61c8c11f")
+	)
+	(text "Dissipates 25J on precharge"
+		(exclude_from_sim no)
+		(at 64.77 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7233f76c-3f49-4d0d-ae58-4440adbe8ec7")
+	)
+	(text "High energy resistor"
+		(exclude_from_sim no)
+		(at 64.77 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e5ef49f-a4d8-4b43-9438-77f7a9b9b780")
+	)
 	(text "Relay Driver"
 		(exclude_from_sim no)
 		(at 72.39 44.45 0)
@@ -1315,6 +1355,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc2861bf-adae-46b5-8743-181a485cfae2")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e1e402-a7f9-45fe-baee-ff7f0b56c8df")
 	)
 	(wire
 		(pts
@@ -1516,8 +1566,8 @@
 		)
 		(uuid "fb038047-16c6-4eff-9597-a9bd25d990ab")
 	)
-	(global_label "V-TS"
-		(shape input)
+	(global_label "V_TS"
+		(shape output)
 		(at 120.65 92.71 270)
 		(fields_autoplaced yes)
 		(effects
@@ -1528,7 +1578,7 @@
 		)
 		(uuid "7724c42c-98c3-4998-92cb-a9c96197fc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 98.8698 90)
+			(at 120.65 98.3936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,19 +1588,19 @@
 			)
 		)
 	)
-	(global_label "V-PreCharge"
-		(shape input)
+	(global_label "V_PRECHARGE"
+		(shape output)
 		(at 128.27 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 			)
 			(justify left)
 		)
 		(uuid "a4b4a2ba-e14a-491e-85c4-81fa195d7b42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6528 73.66 0)
+			(at 140.9536 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,9 +1610,9 @@
 			)
 		)
 	)
-	(global_label "V-ACC"
+	(global_label "V_ACC"
 		(shape input)
-		(at 123.19 57.15 90)
+		(at 123.19 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1572,7 +1622,7 @@
 		)
 		(uuid "eca0eb51-a82b-4b9b-a278-49c8c66aea28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 49.8474 90)
+			(at 123.19 49.0536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
