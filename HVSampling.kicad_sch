@@ -5574,7 +5574,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
@@ -5646,7 +5646,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
-					(page "6")
+					(page "7")
 				)
 			)
 		)

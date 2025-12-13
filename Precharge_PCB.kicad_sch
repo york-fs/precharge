@@ -21335,7 +21335,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -21397,7 +21397,7 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
