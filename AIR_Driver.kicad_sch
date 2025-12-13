@@ -1380,7 +1380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05a5c538-06ff-4413-a5d8-bfde091ad6cf")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -1475,11 +1475,11 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1493,7 +1493,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3078e18d-259d-456a-80f5-33f87dfad918")
 		(property "Reference" "#PWR045"
 			(at 63.5 72.39 0)
@@ -1505,7 +1504,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 63.5 63.5 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1573,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 116.84 52.07 0)
+			(at 116.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6370493e-7f46-4a49-b385-da7ceb3f14a8")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 119.38 60.9599 0)
 			(effects
 				(font
@@ -1768,11 +1767,11 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1786,7 +1785,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6487bf12-76fb-455c-9d85-db86864224b9")
 		(property "Reference" "#PWR046"
 			(at 63.5 95.25 0)
@@ -1798,7 +1796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 93.98 0)
+			(at 63.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d67161-de8d-4aa4-95c7-32ac4a5fa7b0")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 66.04 72.3899 0)
 			(effects
 				(font
@@ -1912,11 +1910,11 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1930,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "a02981b6-28ae-4ed6-a44d-e7223c92113b")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 92.71 78.7399 90)
 			(effects
 				(font
@@ -2004,11 +2002,11 @@
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "D17")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
