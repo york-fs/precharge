@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP G7L-2A-X-SI_DC12
-D General Purpose Relays Low CR 1000VDC PCB Relay DC12
-K
-F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_x.pdf
-$ENDCMP
-#
-#End Doc Library
