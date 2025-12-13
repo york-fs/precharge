@@ -6954,7 +6954,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "247bfaed-b4ae-4dee-a0b9-3ff41e98181f")
+		(uuid "247bfaed-b4ae-4dee-a0b9-3ff41e981820")
 		(property "Reference" "U7"
 			(at 129.54 -52.07 0)
 			(effects
@@ -6999,28 +6999,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6e91ed9-ce16-4b96-9030-0e5d9860e779")
+			(uuid "a6e91ed9-ce16-4b96-9030-0e5d9860e77a")
 		)
 		(pin "2"
-			(uuid "b5fc24ec-2372-44b0-97e9-ad3746610264")
+			(uuid "b5fc24ec-2372-44b0-97e9-ad3746610265")
 		)
 		(pin "3"
-			(uuid "3c160895-78eb-44c7-a237-ff5aeac1a35e")
+			(uuid "3c160895-78eb-44c7-a237-ff5aeac1a35f")
 		)
 		(pin "5"
-			(uuid "9ced166d-a1a6-4d52-baba-3674380612da")
+			(uuid "9ced166d-a1a6-4d52-baba-3674380612db")
 		)
 		(pin "6"
-			(uuid "0547b9df-c671-4786-b9e8-bff4441862e2")
+			(uuid "0547b9df-c671-4786-b9e8-bff4441862e3")
 		)
 		(pin "7"
-			(uuid "387572ba-002d-44ce-af85-1df8b9d1f2e6")
+			(uuid "387572ba-002d-44ce-af85-1df8b9d1f2e7")
 		)
 		(pin "4"
-			(uuid "e2d0c1ed-3397-40b0-a091-a240d77f075f")
+			(uuid "e2d0c1ed-3397-40b0-a091-a240d77f0760")
 		)
 		(pin "8"
-			(uuid "2ae6689c-068c-4888-a4fa-b220cd6b5407")
+			(uuid "2ae6689c-068c-4888-a4fa-b220cd6b5408")
 		)
 		(instances
 			(project "Precharge_PCB"
