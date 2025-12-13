@@ -14205,124 +14205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 274.32 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fd25560-e12b-4c27-9c90-a4d92ca6bfd5")
-		(property "Reference" "J7"
-			(at 276.86 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SWD"
-			(at 276.86 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C6332200"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Hanbo Electronic"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "HB-PH3-25417PB2GOP"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "2f47f811-0850-419b-833f-bf8cf534f3e3")
-		)
-		(pin "1"
-			(uuid "7070fafa-3470-4b60-8669-79a3c353b069")
-		)
-		(pin "4"
-			(uuid "af2c0a4a-906e-4060-a156-e493b7c455ad")
-		)
-		(pin "3"
-			(uuid "10b1b993-8f9a-4d36-bbb0-780e4f4187a6")
-		)
-		(pin "2"
-			(uuid "52d2967d-eda0-4c0d-a352-0364751775e9")
-		)
-		(pin "6"
-			(uuid "ae6ef52e-c3fd-4fd4-b243-412d36646192")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 64.77 146.05 0)
 		(unit 1)
@@ -14515,6 +14397,124 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 274.32 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65eb9c85-dd94-4b60-a6cb-799ab7527c5f")
+		(property "Reference" "J10"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 276.86 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yfs:IDC-Connector-2x3"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C42372545"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "hanxia"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "HX JN1.27-2x3P ZZ H4.9"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "136ee38b-cc4c-48a7-b28b-fa58d8621fcb")
+		)
+		(pin "1"
+			(uuid "5e848d78-a0ca-46d8-bcb7-9bf0efa9a470")
+		)
+		(pin "4"
+			(uuid "76532b41-ca8e-4461-9ad8-7cd2d388b467")
+		)
+		(pin "3"
+			(uuid "eda504d3-fae5-44eb-9201-a1e6aeceb426")
+		)
+		(pin "2"
+			(uuid "aa87717d-4537-403c-8099-fc7857012a60")
+		)
+		(pin "6"
+			(uuid "ccc3a3a8-e004-4376-aad1-c60abbab6c9a")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "J10")
 					(unit 1)
 				)
 			)
