@@ -701,8 +701,16 @@
       "AIR- Driver"
     ],
     [
+      "40675a50-a5c6-4759-acd6-914b3ce60c39",
+      "ACC Sampler"
+    ],
+    [
       "c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db",
       "Precharge Relay"
+    ],
+    [
+      "481c6b85-c613-4759-b3cf-851f0c736d9a",
+      "TS Sampler"
     ],
     [
       "5111e28e-8231-41c0-b506-a567affaf28a",
