@@ -5,4 +5,5 @@
   (lib (name "Components")(type "KiCad")(uri "${KIPRJMOD}/Components/Components.kicad_sym")(options "")(descr ""))
   (lib (name "TLV1811")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV1811.kicad_sym")(options "")(descr ""))
   (lib (name "MyLibrary")(type "KiCad")(uri "${KIPRJMOD}/MyLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "yfs")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/yfs.kicad_sym")(options "")(descr ""))
 )
