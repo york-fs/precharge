@@ -497,6 +497,62 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "12V",
+        "pcb_color": "rgb(255, 45, 235)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "3V3",
+        "pcb_color": "rgb(50, 17, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "5V",
+        "pcb_color": "rgb(255, 27, 24)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "CAN",
+        "pcb_color": "rgb(27, 188, 43)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "GND",
+        "pcb_color": "rgb(100, 100, 100)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "SDN",
+        "pcb_color": "rgb(144, 244, 255)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "SWD",
+        "pcb_color": "rgb(222, 255, 36)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -504,7 +560,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND*"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V*"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/SWDIO|/SWCLK|/SWO|NRST"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN*"
+      },
+      {
+        "netclass": "SDN",
+        "pattern": "SHUTDOWN*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

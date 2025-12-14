@@ -5,7 +5,10 @@
 	(uuid "4e96c8cf-03c6-4065-853a-95b644b83384")
 	(paper "A4")
 	(title_block
+		(date "2025-12-13")
 		(rev "${REVISION}")
+		(company "York Formula Student")
+		(comment 1 "Designed by Josh B, Logan C, and Owen S")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
