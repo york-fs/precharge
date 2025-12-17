@@ -828,57 +828,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "yfs:G9KB-1A"
+		(symbol "yfs:G9EJH-1-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 11.43 3.81 0)
+				(at 11.938 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "G9KB-1A"
-				(at 11.43 1.27 0)
+			(property "Value" "G9EJH-1-E"
+				(at 17.018 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "yfs:G9KB-1A"
-				(at -15.24 22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/K340-E1.pdf"
-				(at 0.762 21.844 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole"
-				(at -1.016 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Pole Relay SPST Omron NO"
+			(property "Footprint" "yfs:G9EJH-1-E"
 				(at 0 0 0)
 				(effects
 					(font
@@ -887,7 +857,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "G9KB-1A_0_0"
+			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Omron_07-02-2025_G9EJH-1-E_Datasheet.pdf"
+				(at -4.064 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small size DC power relay for 800 VDC systems specialized for pre-charging applications"
+				(at -4.064 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G9EJH-1-E_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -901,7 +889,7 @@
 					)
 				)
 			)
-			(symbol "G9KB-1A_0_1"
+			(symbol "G9EJH-1-E_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1045,7 +1033,7 @@
 					)
 				)
 			)
-			(symbol "G9KB-1A_1_0"
+			(symbol "G9EJH-1-E_1_0"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -1085,7 +1073,7 @@
 					)
 				)
 			)
-			(symbol "G9KB-1A_1_1"
+			(symbol "G9EJH-1-E_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -2176,6 +2164,88 @@
 		)
 	)
 	(symbol
+		(lib_id "yfs:G9EJH-1-E")
+		(at 115.57 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b475c1-e799-42aa-9101-4d480526f759")
+		(property "Reference" "K3"
+			(at 127 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G9EJH-1-E"
+			(at 127 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "yfs:G9EJH-1-E"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Omron_07-02-2025_G9EJH-1-E_Datasheet.pdf"
+			(at 111.506 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small size DC power relay for 800 VDC systems specialized for pre-charging applications"
+			(at 111.506 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A4"
+			(uuid "e95a1795-0096-4a44-b420-729e0a94d9df")
+		)
+		(pin "B3"
+			(uuid "f3309f35-d4cc-459a-802d-4c9b2ee233d5")
+		)
+		(pin "1"
+			(uuid "ec6fafd8-c6f0-47a1-97b9-da953d877cbc")
+		)
+		(pin "A3"
+			(uuid "0f5851f4-4e96-4c66-8a01-499e63e10f34")
+		)
+		(pin "2"
+			(uuid "b468c26c-f4cf-4922-a4ed-27e9a04d9ff6")
+		)
+		(pin "B4"
+			(uuid "cd2e77a3-923e-4c97-8068-e4ffd44b5254")
+		)
+		(instances
+			(project ""
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VL")
 		(at 66.04 53.34 0)
 		(unit 1)
@@ -2235,125 +2305,6 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "yfs:G9KB-1A")
-		(at 115.57 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7163296-e9fc-4b0e-9ebe-1b074420af35")
-		(property "Reference" "K3"
-			(at 127 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G9KB-1A"
-			(at 127 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "yfs:G9KB-1A"
-			(at 100.33 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/K340-E1.pdf"
-			(at 116.332 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole"
-			(at 114.554 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "Mouser"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "653-G9KB-1ADC12"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Omron"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "G9KB-1ADC12"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "c925ddfd-39d7-47e9-8f71-a3d8e11d5d21")
-		)
-		(pin "A4"
-			(uuid "26ebe124-f4b3-4b08-8373-b67758fbd006")
-		)
-		(pin "1"
-			(uuid "a6ae42b6-5cd7-445b-b7c9-d302e8e5d391")
-		)
-		(pin "2"
-			(uuid "ad60278f-de55-4e9c-863c-0765deb750f4")
-		)
-		(pin "A3"
-			(uuid "f637e899-f9eb-4552-8efc-b8ab8040ec01")
-		)
-		(pin "B3"
-			(uuid "ac68d802-66a6-4d92-b379-6e259f4cad49")
-		)
-		(instances
-			(project ""
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/c2fa71c2-1bd3-4dc0-8faf-814cfbc0b0db"
-					(reference "K3")
 					(unit 1)
 				)
 			)
