@@ -6903,12 +6903,6 @@
 		(uuid "93d2945c-3565-4381-bbe8-40d666c6cb43")
 	)
 	(junction
-		(at 118.11 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e8e27b5-d2da-4514-b388-7108853e795d")
-	)
-	(junction
 		(at 182.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7015,12 +7009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f98ecae2-55fc-46a2-a77d-0801b51ad98e")
-	)
-	(junction
-		(at 107.95 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbf29482-13c1-49a0-a7a7-e9f1f7f91b71")
 	)
 	(junction
 		(at 186.69 29.21)
@@ -7268,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 120.65 86.36)
+			(xy 116.84 86.36) (xy 120.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7325,16 +7313,6 @@
 			(type default)
 		)
 		(uuid "154347f6-282d-4974-855e-5b4554b8ead6")
-	)
-	(wire
-		(pts
-			(xy 115.57 86.36) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18046f79-fd83-4526-945a-e59dd8af8afc")
 	)
 	(wire
 		(pts
@@ -8208,16 +8186,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796c7e9f-b611-42ec-bfc7-92bef0db2f19")
-	)
-	(wire
-		(pts
 			(xy 267.97 121.92) (xy 267.97 123.19)
 		)
 		(stroke
@@ -8335,16 +8303,6 @@
 			(type default)
 		)
 		(uuid "86368d61-816a-499e-9e08-eb9606179a61")
-	)
-	(wire
-		(pts
-			(xy 107.95 134.62) (xy 107.95 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "869a6f04-83aa-4206-b773-3962a334ecbc")
 	)
 	(wire
 		(pts
@@ -8578,16 +8536,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 143.51) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3678a64-99a2-4919-84e8-6470c7edc69d")
-	)
-	(wire
-		(pts
 			(xy 181.61 66.04) (xy 181.61 67.31)
 		)
 		(stroke
@@ -8665,16 +8613,6 @@
 			(type default)
 		)
 		(uuid "a8b2e561-5701-4bbe-bf39-a5785a4cd83f")
-	)
-	(wire
-		(pts
-			(xy 118.11 95.25) (xy 118.11 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abedf422-9eab-4ed8-9d61-edd56504fe97")
 	)
 	(wire
 		(pts
@@ -10188,7 +10126,7 @@
 	)
 	(global_label "MCU_SHUTDOWN"
 		(shape input)
-		(at 115.57 86.36 180)
+		(at 116.84 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10198,7 +10136,7 @@
 		)
 		(uuid "8d42b4fd-b3ba-41c2-94f8-6e39500bbf27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2197 86.36 0)
+			(at 102.4897 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,217 +11576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "124786b8-76d1-4208-b338-7eca1dcf125e")
-		(property "Reference" "R12"
-			(at 120.65 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 120.65 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.332 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uni-Royal"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "0603WAF1002T5E"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d6289da-17c9-4069-9e68-2b5e2aa25ee7")
-		)
-		(pin "2"
-			(uuid "9fadb5bd-43fd-45d7-be81-6c45d54f1074")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "12728152-ba8a-427e-be84-a98febe83131")
-		(property "Reference" "R13"
-			(at 105.41 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 105.41 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.172 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Uni-Royal"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "0603WAF1002T5E"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82c4e682-4ad3-45e2-9cfa-06b055574aee")
-		)
-		(pin "2"
-			(uuid "b32dc712-7033-4c55-ab90-eb2c237a4bd9")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 261.62 115.57 0)
 		(unit 1)
@@ -12043,73 +11770,6 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d598f75-ddef-408a-af0c-93f80c503931")
-		(property "Reference" "#PWR016"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "463d7f2c-cc2f-4398-acf9-d8d040697041")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18313,74 +17973,6 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae02ff82-870a-451e-b411-27215b54da4e")
-		(property "Reference" "#PWR093"
-			(at 107.95 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e0396cd-c77a-4e54-97e3-d583129beeb3")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
-					(reference "#PWR093")
 					(unit 1)
 				)
 			)
