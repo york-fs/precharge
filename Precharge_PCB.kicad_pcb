@@ -5896,7 +5896,7 @@
 		(descr "Omron Relay, SPST, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf")
 		(tags "Omron Relay SPST")
 		(property "Reference" "K1"
-			(at -4.062501 -1.75 180)
+			(at -0.062501 2.5 180)
 			(layer "F.SilkS")
 			(uuid "ccb55b9f-e641-4aad-b092-e2901e43cd31")
 			(effects
@@ -35587,7 +35587,7 @@
 		(descr "G9EJH-1-P-E DC12-2")
 		(tags "Relay or Contactor")
 		(property "Reference" "K3"
-			(at 12.400001 -10.25 0)
+			(at 3.5 -0.100001 0)
 			(layer "F.SilkS")
 			(uuid "58f440df-7ce5-49b8-88da-09a35561601b")
 			(effects
