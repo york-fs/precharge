@@ -4196,7 +4196,7 @@
 		(uuid "18b54afc-033d-4334-938d-7ff1b9a8f2ed")
 		(at 203.5 98.999999 90)
 		(property "Reference" "R21"
-			(at 1.5 -1 90)
+			(at 1.749999 1.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1d0b10b5-c4f3-46a3-9333-e9a9bf1fa7cf")
