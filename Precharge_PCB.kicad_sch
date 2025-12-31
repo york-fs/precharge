@@ -6386,6 +6386,18 @@
 		)
 	)
 	(rectangle
+		(start 125.73 154.94)
+		(end 158.75 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 109c9fee-2a22-49f8-b617-98b7a8c3db09)
+	)
+	(rectangle
 		(start 167.64 15.24)
 		(end 283.21 46.99)
 		(stroke
@@ -6532,6 +6544,19 @@
 			(justify left)
 		)
 		(uuid "2e7b8caf-d551-4aca-873a-8cc31963346c")
+	)
+	(text "Standalone Test Jumper"
+		(exclude_from_sim no)
+		(at 138.43 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "390ee29c-84c4-4bf1-aba7-1c23fa2470f7")
 	)
 	(text "TSAL Power Detection"
 		(exclude_from_sim no)
@@ -7426,6 +7451,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 168.91) (xy 148.59 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f0a900-88e4-4954-8173-97e557e6ba4a")
+	)
+	(wire
+		(pts
 			(xy 68.58 185.42) (xy 63.5 185.42)
 		)
 		(stroke
@@ -8216,6 +8251,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 168.91) (xy 148.59 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d31808b-7ad5-4fce-917e-1870d02dacad")
+	)
+	(wire
+		(pts
 			(xy 203.2 20.32) (xy 203.2 29.21)
 		)
 		(stroke
@@ -8583,6 +8628,16 @@
 			(type default)
 		)
 		(uuid "a67ff57a-55db-4f02-996d-95f52be8e442")
+	)
+	(wire
+		(pts
+			(xy 135.89 168.91) (xy 135.89 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76daa19-85ff-47d8-b30a-c0e1bd40e76d")
 	)
 	(wire
 		(pts
@@ -9013,6 +9068,16 @@
 			(type default)
 		)
 		(uuid "cae921b4-430d-40cd-ae81-a3c85f24ba2e")
+	)
+	(wire
+		(pts
+			(xy 138.43 168.91) (xy 135.89 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb864610-04d9-471b-8673-2702655cdb76")
 	)
 	(wire
 		(pts
@@ -11246,6 +11311,71 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5fed14-4452-4999-96a8-3ad90d87f26e")
+		(property "Reference" "#PWR057"
+			(at 135.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5d3c607-c092-4bfa-bfeb-2f8c47639aa3")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16197,6 +16327,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 142.24 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85dfada2-2815-4ebe-b3bd-c009b27a5cb1")
+		(property "Reference" "JP2"
+			(at 140.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 143.5099 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33480263-690e-4449-a64d-d5f5b78ec2c7")
+		)
+		(pin "2"
+			(uuid "952f7980-e0d3-4ea1-9667-485a01ffb15b")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 194.31 125.73 270)
 		(mirror x)
@@ -18573,6 +18773,71 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VL")
+		(at 148.59 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b68e20-c914-45ce-9f0e-9a27db7505bc")
+		(property "Reference" "#PWR016"
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VL"
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VL\""
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348c2e37-9cbc-476b-b40c-91aa7b5084b2")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
