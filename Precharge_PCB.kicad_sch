@@ -6838,6 +6838,12 @@
 		(uuid "6e09676f-292f-4d69-8fd5-56dff44ab0e7")
 	)
 	(junction
+		(at 17.78 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d07a00-3c48-48ed-a14b-719e1d8ae4cb")
+	)
+	(junction
 		(at 147.32 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7511,6 +7517,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 83.82) (xy 72.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5d2826-bbde-4f24-a020-c2218a4af5ff")
+	)
+	(wire
+		(pts
 			(xy 266.7 128.27) (xy 269.24 128.27)
 		)
 		(stroke
@@ -7548,6 +7564,16 @@
 			(type default)
 		)
 		(uuid "32836772-7483-42f8-b6dc-ac7547f9613f")
+	)
+	(wire
+		(pts
+			(xy 17.78 95.25) (xy 21.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f567a7-79e4-436d-8bc3-6d3690995387")
 	)
 	(wire
 		(pts
@@ -8051,16 +8077,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 95.25) (xy 17.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e62f57-7616-44d5-8219-b8023a287d9d")
-	)
-	(wire
-		(pts
 			(xy 195.58 29.21) (xy 200.66 29.21)
 		)
 		(stroke
@@ -8098,6 +8114,16 @@
 			(type default)
 		)
 		(uuid "6bdc5e37-0e6f-413a-927c-8ae6770ad01c")
+	)
+	(wire
+		(pts
+			(xy 17.78 109.22) (xy 17.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d469b21-2613-4868-b590-5490ef9125e7")
 	)
 	(wire
 		(pts
@@ -9001,6 +9027,26 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 101.6) (xy 17.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5389da3-aca7-40ba-9022-128ed7fe6a83")
+	)
+	(wire
+		(pts
+			(xy 17.78 95.25) (xy 17.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c620ed9d-1b16-4b4b-a8ed-8f67e7078734")
+	)
+	(wire
+		(pts
 			(xy 147.32 138.43) (xy 149.86 138.43)
 		)
 		(stroke
@@ -9571,6 +9617,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 83.82) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53df9de-4620-4f54-8626-f0e588eabe14")
+	)
+	(wire
+		(pts
 			(xy 181.61 59.69) (xy 190.5 59.69)
 		)
 		(stroke
@@ -9618,6 +9674,16 @@
 			(type default)
 		)
 		(uuid "fa1595c4-cd72-4800-b646-9f93aa1d342a")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.82) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfe5ad9-ff2d-45ca-a2b1-1f0ff2d33429")
 	)
 	(wire
 		(pts
@@ -14682,6 +14748,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 17.78 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f7d7261-b095-4218-9376-503f3e384759")
+		(property "Reference" "R12"
+			(at 20.32 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330"
+			(at 20.32 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C23138"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF3300T5E"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b4dad12-a68e-4d88-b66c-89b9b3f5c59e")
+		)
+		(pin "1"
+			(uuid "96c9b238-d572-4239-b43b-70fb3763e5f3")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 262.89 33.02 0)
 		(mirror y)
@@ -15971,6 +16144,122 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 17.78 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ce7f15-cb7a-4ed7-bca6-975a77c6a4b4")
+		(property "Reference" "D24"
+			(at 20.32 105.3464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 13.97 105.3465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 17.78 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C84263"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Foshan NationStar Optoelectronics"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "NCD0603R1"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a9ea019-0366-4ec4-951c-e3ab9b944bd5")
+		)
+		(pin "2"
+			(uuid "7c8c9288-d700-4c8f-a032-be1532027b83")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -18714,6 +19003,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VL")
+		(at 72.39 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4c4ff6c-5bc2-4fd6-9ec4-1321875d047f")
+		(property "Reference" "#PWR061"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VL"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VL\""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5286a6ec-039c-413e-8f18-b06385677d86")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 127 193.04 90)
 		(unit 1)
@@ -19496,6 +19850,71 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf958e73-92ef-4a20-9eab-85891ac4deb2")
+		(property "Reference" "#PWR060"
+			(at 17.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c96a88c-1200-4577-83a8-caf5c9662026")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -20535,6 +20954,72 @@
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54191e5-4e2b-4167-957b-756f6bd2288a")
+		(property "Reference" "TP5"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.28 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3c491af-f873-491a-9595-9819e6c9db3f")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
