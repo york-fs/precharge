@@ -3585,7 +3585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
+		(property "Dist" "DigiKey"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "709-SPU01M-05"
+		(property "Dist #" "1866-4835-ND"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "SPU01M-05"
+		(property "Mfr #" "SPU01L-05"
 			(at 177.8 35.56 0)
 			(effects
 				(font
