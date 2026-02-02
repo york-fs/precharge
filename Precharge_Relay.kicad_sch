@@ -1438,6 +1438,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 74.93) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fdaa6e-e01f-438e-846c-b6e6b3663c1f")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 110.49 55.88)
 		)
 		(stroke
@@ -1528,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 120.65 90.17)
+			(xy 120.65 93.98) (xy 120.65 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 82.55) (xy 120.65 81.28)
+			(xy 120.65 83.82) (xy 120.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1640,7 @@
 	)
 	(global_label "V_TS"
 		(shape output)
-		(at 120.65 92.71 270)
+		(at 120.65 93.98 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1640,7 +1650,7 @@
 		)
 		(uuid "7724c42c-98c3-4998-92cb-a9c96197fc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 98.3936 90)
+			(at 120.65 99.6636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 120.65 77.47 270)
+		(at 120.65 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1815,7 +1825,7 @@
 		(dnp no)
 		(uuid "057ebc9d-6bd9-4f26-adf8-ff7d624b4da6")
 		(property "Reference" "D23"
-			(at 123.19 76.2 90)
+			(at 123.19 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1834,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 123.19 78.74 90)
+			(at 123.19 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1843,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 116.205 77.47 0)
+			(at 116.205 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1852,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 120.65 77.47 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1861,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 120.65 77.47 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1870,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 77.47 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1879,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 77.47 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1904,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 86.36 0)
+		(at 120.65 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1902,7 +1912,7 @@
 		(dnp no)
 		(uuid "229b21eb-b2d3-4772-97f9-5e97fe6f6e11")
 		(property "Reference" "R21"
-			(at 124.46 85.09 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1920,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 124.46 87.63 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1928,7 @@
 			)
 		)
 		(property "Footprint" "yfs:APLR1000"
-			(at 118.872 86.36 90)
+			(at 118.872 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1937,7 @@
 			)
 		)
 		(property "Datasheet" "https://s.resistor.today/shop/products/epdf/APLR.pdf"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1946,7 @@
 			)
 		)
 		(property "Description" "Non-Inductive High Energy Anti-Pulse Resistor"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1955,7 @@
 			)
 		)
 		(property "Dist" "DigiKey"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1964,7 @@
 			)
 		)
 		(property "Dist #" "4506-APLR1000J1K00SE-ND"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1973,7 @@
 			)
 		)
 		(property "Mfr" "C&B/RESI"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1982,7 @@
 			)
 		)
 		(property "Mfr #" "APLR1000J1K00SE"
-			(at 120.65 86.36 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,6 +2388,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dist" "DigiKey"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "39-G9EJH-1-P-EDC12-ND"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Omron"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "G9EJH-1-P-E DC12"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A4"
 			(uuid "e95a1795-0096-4a44-b420-729e0a94d9df")
 		)
@@ -2518,6 +2564,42 @@
 		)
 		(property "Description" "Zener diode"
 			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "DigiKey"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "BZG05C24-M3-08GICT-ND"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "VISHAY"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "BZG05C24-M3-08"
+			(at 99.06 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
