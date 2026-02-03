@@ -336,173 +336,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4007"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4007"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4007_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4007_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:DMN61D8LQ"
 			(pin_names
 				(offset 0)
@@ -1062,12 +895,6 @@
 		(uuid "25e279d2-8b0d-4ced-a540-b9ce84d1be60")
 	)
 	(junction
-		(at 101.6 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31cbb844-fdb3-444a-b185-931a64faf453")
-	)
-	(junction
 		(at 53.34 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1078,12 +905,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80274e5d-0079-4f74-8943-71833e2e8475")
-	)
-	(junction
-		(at 101.6 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5a7e55e-893d-4bf9-a182-c60bb46baae2")
 	)
 	(wire
 		(pts
@@ -1097,16 +918,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 83.82) (xy 101.6 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2201b2d5-b9aa-4bff-819c-59cd9ec2a1a4")
-	)
-	(wire
-		(pts
 			(xy 50.8 91.44) (xy 53.34 91.44)
 		)
 		(stroke
@@ -1114,16 +925,6 @@
 			(type default)
 		)
 		(uuid "2966688f-2c14-4228-86bd-df3155df018b")
-	)
-	(wire
-		(pts
-			(xy 95.25 76.2) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2971127e-1855-4eb2-aab7-9854259b4b4d")
 	)
 	(wire
 		(pts
@@ -1147,17 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c5730e5-0a1b-45d5-84c0-be473fee61e1")
-	)
-	(wire
-		(pts
-			(xy 101.6 81.28) (xy 101.6 83.82)
+			(xy 101.6 81.28) (xy 101.6 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 101.6 76.2)
+			(xy 101.6 73.66) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1304,16 +1095,6 @@
 			(type default)
 		)
 		(uuid "e4a60f8b-dc2e-4271-bd3f-60fc8352118f")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 101.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c5b4d5-3e4b-4c58-82bd-06791eca4b2c")
 	)
 	(global_label "SHUTDOWN_FINAL"
 		(shape input)
@@ -2023,98 +1804,6 @@
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 95.25 80.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a02981b6-28ae-4ed6-a44d-e7223c92113b")
-		(property "Reference" "D19"
-			(at 92.71 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 92.71 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 99.695 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 95.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 95.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 95.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8294c2c-81aa-4d0f-8e47-fe6a203d1b41")
-		)
-		(pin "1"
-			(uuid "4e8f7c43-b681-4459-80cc-6ec6e784fde1")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "D19")
 					(unit 1)
 				)
 			)
