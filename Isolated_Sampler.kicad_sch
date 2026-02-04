@@ -4168,7 +4168,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 200.66 115.57 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 199.39 114.3 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 199.39 114.3 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 200.66 123.19 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 199.39 121.92 0)
 			(effects
 				(font
@@ -5355,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 199.39 121.92 0)
 			(effects
 				(font

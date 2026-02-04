@@ -24764,7 +24764,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "eb246ce4-103c-4a16-899f-c23bcb4f2dce")
@@ -24812,7 +24812,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24838,7 +24838,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27141,7 +27141,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "068d16e5-0f4a-47b3-8622-59b2622ca416")
@@ -27189,7 +27189,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27215,7 +27215,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34282,7 +34282,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e4f85ae3-ac29-42bd-ae7b-22823e22e7d9")
@@ -34330,7 +34330,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34356,7 +34356,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41763,7 +41763,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ea22f828-5750-486b-a341-ecb46ab761fa")
@@ -41811,7 +41811,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41837,7 +41837,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
