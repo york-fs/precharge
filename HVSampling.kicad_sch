@@ -3723,7 +3723,7 @@
 			(uuid "279576a0-dd9c-4485-8d11-938cbe294594")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a"
 					(reference "K4")
 					(unit 1)

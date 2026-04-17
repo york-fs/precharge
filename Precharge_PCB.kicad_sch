@@ -9878,7 +9878,7 @@
 		)
 	)
 	(global_label "SHUTDOWN_FINAL"
-		(shape input)
+		(shape output)
 		(at 69.85 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10318,7 +10318,7 @@
 		)
 	)
 	(global_label "SHUTDOWN_IN"
-		(shape output)
+		(shape input)
 		(at 36.83 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12028,7 +12028,7 @@
 			(uuid "4c0a858d-d374-4953-9584-9af61ee935a9")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "R14")
 					(unit 1)
@@ -13295,7 +13295,7 @@
 			(uuid "31230b63-2dd2-4f01-87d9-e4849303b06e")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "J6")
 					(unit 1)
@@ -13486,7 +13486,7 @@
 			(uuid "59025cef-10ba-4db0-a5d1-1606a6dfb461")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "J5")
 					(unit 1)
@@ -13867,7 +13867,7 @@
 			(uuid "4c0a858d-d374-4953-9584-9af61ee935aa")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "R15")
 					(unit 1)
@@ -16435,7 +16435,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80ab1394-219f-4ae4-bce7-86b0dadb3595")
 		(property "Reference" "#PWR08"
 			(at 17.78 97.79 0)
@@ -16447,7 +16446,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 17.78 88.9 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16485,7 +16484,7 @@
 			(uuid "ad1843e1-ed80-4ced-85af-6c78a1347976")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "#PWR08")
 					(unit 1)
@@ -16598,7 +16597,7 @@
 			(uuid "b22b7efa-04f7-4e0a-8bdf-3fd2a63a2224")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "K2")
 					(unit 1)
@@ -18829,7 +18828,7 @@
 			(uuid "f74fecd3-3f08-49cf-98c2-3cdb5abe1ae2")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "D18")
 					(unit 1)
@@ -19591,7 +19590,7 @@
 			(uuid "5cbba391-dbc0-4aa2-bca9-f0b63c998315")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "JP1")
 					(unit 1)
@@ -21693,7 +21692,7 @@
 			(uuid "8f45dead-e797-4e16-892e-97e92c93f74a")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
 					(reference "Q2")
 					(unit 1)

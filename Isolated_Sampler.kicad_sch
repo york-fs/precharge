@@ -3850,7 +3850,7 @@
 			(uuid "b84c87eb-f613-420d-a393-0f8b13fdc413")
 		)
 		(instances
-			(project ""
+			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/5111e28e-8231-41c0-b506-a567affaf28a/40675a50-a5c6-4759-acd6-914b3ce60c39"
 					(reference "C32")
 					(unit 1)
