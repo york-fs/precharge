@@ -818,6 +818,7 @@
     ]
   ],
   "text_variables": {
-    "REVISION": "A"
+    "PCB_DATE": "APR 2026",
+    "REVISION": "B"
   }
 }
