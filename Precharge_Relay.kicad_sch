@@ -1745,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 96.52 62.2299 90)
 			(effects
 				(font
@@ -1808,7 +1808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -1817,7 +1817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -1869,7 +1869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 123.19 80.01 90)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -1896,7 +1896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -1932,7 +1932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 120.65 78.74 90)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 120.65 78.74 90)
 			(effects
 				(font
@@ -1950,7 +1950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 120.65 78.74 90)
 			(effects
 				(font

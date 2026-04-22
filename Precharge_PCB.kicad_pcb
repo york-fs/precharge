@@ -3056,7 +3056,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at -0.000001 2.600002 0)
 			(layer "F.Fab")
 			(uuid "dc9969a5-6c33-4734-85b1-d05ff5ebc81d")
@@ -3132,7 +3132,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3145,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3158,7 +3158,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 0 2.600001 90)
 			(layer "F.Fab")
 			(uuid "1e09655b-b4c8-4517-a5b2-d3953cdc139a")
@@ -8579,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8592,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8644,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8657,7 +8657,7 @@
 				)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8670,7 +8670,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42121,7 +42121,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at -0.000001 2.600002 0)
 			(layer "F.Fab")
 			(uuid "091c89cd-8861-42a4-ada6-52d0c5d35770")
@@ -42197,7 +42197,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42210,7 +42210,7 @@
 				)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42223,7 +42223,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43929,7 +43929,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 0 2.600001 0)
 			(layer "F.Fab")
 			(uuid "b6e2d7da-f673-4f0f-be6f-64084f7ed1bf")
@@ -44005,7 +44005,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44018,7 +44018,7 @@
 				)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44031,7 +44031,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

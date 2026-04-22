@@ -16699,7 +16699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 114.3 120.6499 90)
 			(effects
 				(font
@@ -16762,7 +16762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -16771,7 +16771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -16780,7 +16780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -20432,7 +20432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "BYG20J"
 			(at 114.3 72.3899 90)
 			(effects
 				(font
@@ -20495,7 +20495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C20754788"
+		(property "Dist #" "C241925"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -20504,7 +20504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "JSMSEMI"
+		(property "Mfr" "VISHAY"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -20513,7 +20513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "1N4007 M7"
+		(property "Mfr #" "BYG20J-E3/TR"
 			(at 116.84 71.12 90)
 			(effects
 				(font
