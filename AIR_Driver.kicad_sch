@@ -336,6 +336,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:DMN6075S"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMN6075S"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN6075S.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.5A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMN6075S_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMN6075S_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:DMN61D8LQ"
 			(pin_names
 				(offset 0)
@@ -906,6 +1205,12 @@
 		(color 0 0 0 0)
 		(uuid "80274e5d-0079-4f74-8943-71833e2e8475")
 	)
+	(junction
+		(at 82.55 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7bcd28a-3195-438d-8df0-a755c87e9de3")
+	)
 	(wire
 		(pts
 			(xy 121.92 67.31) (xy 116.84 67.31)
@@ -948,6 +1253,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 97.79) (xy 93.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d28c123-e5cb-40d2-a507-73350ec3af94")
+	)
+	(wire
+		(pts
 			(xy 101.6 81.28) (xy 101.6 92.71)
 		)
 		(stroke
@@ -958,16 +1273,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 93.98 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54318e3a-0b0e-48c0-975f-d231ec52f392")
-	)
-	(wire
-		(pts
 			(xy 101.6 102.87) (xy 101.6 105.41)
 		)
 		(stroke
@@ -975,6 +1280,16 @@
 			(type default)
 		)
 		(uuid "5af2ef48-4bb5-4986-b097-046489e099d3")
+	)
+	(wire
+		(pts
+			(xy 82.55 106.68) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7f4e57-a1b9-4b24-a86b-8736c5fdd8ce")
 	)
 	(wire
 		(pts
@@ -1058,6 +1373,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 97.79) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adac9d96-783e-4df1-8446-c28105112321")
+	)
+	(wire
+		(pts
 			(xy 63.5 78.74) (xy 67.31 78.74)
 		)
 		(stroke
@@ -1065,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "be8a6156-133f-4754-bbc6-49086b4cb234")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf00d029-0776-4729-aa45-f0f2e3fefad6")
 	)
 	(wire
 		(pts
@@ -1095,6 +1430,16 @@
 			(type default)
 		)
 		(uuid "e4a60f8b-dc2e-4271-bd3f-60fc8352118f")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f609bc14-c666-4c08-93bb-79bf4eba916b")
 	)
 	(global_label "SHUTDOWN_FINAL"
 		(shape input)
@@ -1267,6 +1612,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 82.55 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aff0667-4d97-41d7-91f0-d8643e725f01")
+		(property "Reference" "R53"
+			(at 80.01 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.328 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C25804"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF1002T5E"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24baa533-ad4e-45f0-86c6-fc0211aaf2cb")
+		)
+		(pin "2"
+			(uuid "221e28b5-cc5b-4d32-bfca-a5bbc1dbe684")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VL")
 		(at 63.5 68.58 0)
 		(unit 1)
@@ -1399,122 +1854,6 @@
 				)
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMN61D8LQ")
-		(at 99.06 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54019982-7ceb-473b-b246-c6dab3938980")
-		(property "Reference" "Q4"
-			(at 105.41 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN61D8LQ"
-			(at 105.41 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 104.14 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN61D8LQ.pdf"
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V Vds, 0.470A Id, N-Channel MOSFET for switching inductive loads , SOT-23"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5248874"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "DIODES"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "DMN61D8LQ-7"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a6eca26-a69c-407a-be08-6956743d2518")
-		)
-		(pin "2"
-			(uuid "f1a14006-9bf3-400e-8101-ed53d01561a1")
-		)
-		(pin "3"
-			(uuid "bb8322e4-3586-4444-a942-9fd7b3c403a0")
-		)
-		(instances
-			(project "Precharge_PCB"
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1810,6 +2149,191 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMN6075S")
+		(at 99.06 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f3887cb-bc82-4b95-9324-2eae3c51113a")
+		(property "Reference" "Q4"
+			(at 105.41 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN6075S"
+			(at 105.41 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 104.14 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN6075S.pdf"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C155242"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "DIODES"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "DMN6075S-7"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3957b81a-6f86-4700-b24c-16eb3fd8bcec")
+		)
+		(pin "3"
+			(uuid "6014d1dc-4f0f-4c57-b2ee-07dd98165041")
+		)
+		(pin "1"
+			(uuid "b9ee05b1-eca7-40aa-b446-990b95b5f118")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c56862c5-4a19-4606-822e-d2156afc5f71")
+		(property "Reference" "#PWR022"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "872e87c8-57d4-4881-b3ec-ebb02f284920")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 76.2 270)
 		(unit 1)
@@ -1996,6 +2520,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0315dc-917a-4b0d-8db5-541ec8ced9a6")
+		(property "Reference" "R54"
+			(at 88.9 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a431f69d-c964-4cb4-b49f-8a2604452ca2")
+		)
+		(pin "2"
+			(uuid "de73646d-4d98-4ccc-8229-21cb275e6c19")
+		)
+		(instances
+			(project "Precharge_PCB"
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/002009e0-fc6e-484e-9acf-1c1ff1f04f91"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/c467677d-b98c-4488-bd11-965ef67263b2/25042107-483b-420f-bbcd-e84a850709aa"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 105.41 0)
 		(unit 1)
@@ -2003,7 +2599,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3593f27-c732-4e36-befc-14a97e0e85b5")
 		(property "Reference" "#PWR047"
 			(at 101.6 111.76 0)
@@ -2015,7 +2610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 110.49 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
