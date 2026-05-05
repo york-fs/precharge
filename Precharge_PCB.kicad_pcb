@@ -15,6 +15,8 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
@@ -28,6 +30,9 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
@@ -52,10 +57,13 @@
 				(type "Bottom Solder Mask")
 				(thickness 0.01)
 			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
