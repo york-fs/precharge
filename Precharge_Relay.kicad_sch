@@ -1799,25 +1799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 99.06 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C241925"
-			(at 99.06 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "VISHAY"
+		(property "Mfr" "Vishay"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -1827,6 +1809,33 @@
 			)
 		)
 		(property "Mfr #" "BYG20J-E3/TR"
+			(at 99.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "BYG20J-E3/TR3GICT-ND"
+			(at 99.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C241925"
+			(at 99.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "625-BYG20J-E3/TR3"
 			(at 99.06 60.96 90)
 			(effects
 				(font
@@ -1923,25 +1932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 120.65 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C241925"
-			(at 120.65 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "VISHAY"
+		(property "Mfr" "Vishay"
 			(at 120.65 78.74 90)
 			(effects
 				(font
@@ -1951,6 +1942,33 @@
 			)
 		)
 		(property "Mfr #" "BYG20J-E3/TR"
+			(at 120.65 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "BYG20J-E3/TR3GICT-ND"
+			(at 120.65 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C241925"
+			(at 120.65 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "625-BYG20J-E3/TR3"
 			(at 120.65 78.74 90)
 			(effects
 				(font
@@ -2026,24 +2044,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "DigiKey"
-			(at 120.65 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "4506-APLR1000J1K00SE-ND"
-			(at 120.65 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "C&B/RESI"
 			(at 120.65 87.63 0)
 			(effects
@@ -2054,6 +2054,33 @@
 			)
 		)
 		(property "Mfr #" "APLR1000J1K00SE"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "4506-APLR1000J1K00SE-ND"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 120.65 87.63 0)
 			(effects
 				(font
@@ -2134,24 +2161,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5248874"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "DIODES"
 			(at 107.95 83.82 0)
 			(effects
@@ -2162,6 +2171,33 @@
 			)
 		)
 		(property "Mfr #" "DMN61D8LQ-7"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "DMN61D8LQ-7DICT-ND"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5248874"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "621-DMN61D8LQ-7"
 			(at 107.95 83.82 0)
 			(effects
 				(font
@@ -2243,24 +2279,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 66.04 58.42 0)
 			(effects
@@ -2271,6 +2289,33 @@
 			)
 		)
 		(property "Mfr #" "0603WAF1002T5E"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C25804"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -2351,24 +2396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5248874"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "DIODES"
 			(at 63.5 68.58 0)
 			(effects
@@ -2379,6 +2406,33 @@
 			)
 		)
 		(property "Mfr #" "DMN61D8LQ-7"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "DMN61D8LQ-7DICT-ND"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5248874"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "621-DMN61D8LQ-7"
 			(at 63.5 68.58 0)
 			(effects
 				(font
@@ -2460,24 +2514,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "DigiKey"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "39-G9EJH-1-P-EDC12-ND"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Omron"
 			(at 115.57 64.77 0)
 			(effects
@@ -2488,6 +2524,33 @@
 			)
 		)
 		(property "Mfr #" "G9EJH-1-P-E DC12"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "39-G9EJH-1-P-EDC12-ND"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "653-G9EJH-1-P-EDC12"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -2643,25 +2706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "DigiKey"
-			(at 99.06 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "BZG05C24-M3-08GICT-ND"
-			(at 99.06 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "VISHAY"
+		(property "Mfr" "Vishay"
 			(at 99.06 69.85 90)
 			(effects
 				(font
@@ -2671,6 +2716,33 @@
 			)
 		)
 		(property "Mfr #" "BZG05C24-M3-08"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "BZG05C24-M3-08GICT-ND"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C6136237"
+			(at 99.06 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "78-BZG05C24-M3-08"
 			(at 99.06 69.85 90)
 			(effects
 				(font

@@ -10536,15 +10536,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 190.5 63.5 0)
 			(effects
@@ -10563,7 +10554,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -10709,15 +10718,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 208.28 63.5 0)
 			(effects
@@ -10736,7 +10736,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 208.28 63.5 0)
 			(effects
 				(font
@@ -10813,15 +10831,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 140.97 0)
 			(effects
@@ -10840,8 +10849,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 140.97 0)
+		(property "DigiKey #" ""
+			(at 194.31 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,6 +10940,33 @@
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 118.11 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 118.11 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 118.11 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 118.11 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,15 +11101,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 138.43 0)
 			(effects
@@ -11074,7 +11119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -11083,7 +11128,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -11161,15 +11224,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C1591"
-			(at 256.54 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 256.54 149.86 0)
 			(effects
@@ -11188,7 +11242,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" "1276-1000-1-ND"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C1591"
+			(at 256.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B104KB8NNNC"
 			(at 256.54 149.86 0)
 			(effects
 				(font
@@ -11331,24 +11403,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1022"
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 43.18 121.92 0)
 			(effects
@@ -11359,6 +11413,33 @@
 			)
 		)
 		(property "Mfr #" "2157601022"
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601022-ND"
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1022"
 			(at 43.18 121.92 0)
 			(effects
 				(font
@@ -11434,24 +11515,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 207.01 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "595-TPS7B8850QKVURQ1"
-			(at 207.01 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 207.01 26.67 0)
 			(effects
@@ -11461,7 +11524,34 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "595-TPS7B8850QKVURQ1"
+		(property "Mfr #" "TPS7B8850QKVURQ1"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-TPS7B8850QKVURQ1CT-ND"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C2871866"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-TPS7B8850QKVURQ1"
 			(at 207.01 26.67 0)
 			(effects
 				(font
@@ -11541,15 +11631,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 133.35 0)
 			(effects
@@ -11568,7 +11649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -11577,7 +11658,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -11722,6 +11821,51 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 269.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 269.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 269.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 269.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
+			(at 269.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12e5f78e-dd36-4015-8e77-b97343cfd9d1")
 		)
@@ -11780,6 +11924,51 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
 			(at 234.95 27.94 0)
 			(effects
 				(font
@@ -11847,6 +12036,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 138.43 134.62 0)
 			(effects
 				(font
@@ -11924,24 +12140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1032"
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 43.18 139.7 0)
 			(effects
@@ -11952,6 +12150,33 @@
 			)
 		)
 		(property "Mfr #" "2157601032"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601032-ND"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1032"
 			(at 43.18 139.7 0)
 			(effects
 				(font
@@ -12164,15 +12389,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 21.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 21.59 185.42 0)
 			(effects
@@ -12191,7 +12407,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 21.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 21.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 21.59 185.42 0)
 			(effects
 				(font
@@ -12268,15 +12502,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 140.97 0)
 			(effects
@@ -12295,7 +12520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 140.97 0)
 			(effects
 				(font
@@ -12304,7 +12529,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 140.97 0)
 			(effects
 				(font
@@ -12382,24 +12625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 200.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C344075"
-			(at 200.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Panasonic"
 			(at 200.66 34.29 0)
 			(effects
@@ -12410,6 +12635,33 @@
 			)
 		)
 		(property "Mfr #" "EEEFK1J220XP"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "PCE3821CT-ND"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C344075"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "667-EEE-FK1J220XP"
 			(at 200.66 34.29 0)
 			(effects
 				(font
@@ -12551,15 +12803,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 135.89 0)
 			(effects
@@ -12578,7 +12821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 135.89 0)
 			(effects
 				(font
@@ -12587,7 +12830,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 135.89 0)
 			(effects
 				(font
@@ -12664,15 +12925,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 143.51 0)
 			(effects
@@ -12691,7 +12943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -12700,7 +12952,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -12976,15 +13246,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C2336884"
-			(at 172.72 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Murata"
 			(at 172.72 97.79 0)
 			(effects
@@ -13003,7 +13264,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" "490-GQM1875C2E300GB12DCT-ND"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C2336884"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "81-GQM1875C2E300GB2D"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -13083,24 +13362,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 80.01 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1043"
-			(at 80.01 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 80.01 138.43 0)
 			(effects
@@ -13111,6 +13372,33 @@
 			)
 		)
 		(property "Mfr #" "2157601043"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601043-ND"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1043"
 			(at 80.01 138.43 0)
 			(effects
 				(font
@@ -13191,6 +13479,51 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd141af0-0cb5-4d74-b750-54669b761deb")
 		)
@@ -13259,24 +13592,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1008"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 48.26 90.17 0)
 			(effects
@@ -13287,6 +13602,33 @@
 			)
 		)
 		(property "Mfr #" "2157601008"
+			(at 48.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601008-ND"
+			(at 48.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 48.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1008"
 			(at 48.26 90.17 0)
 			(effects
 				(font
@@ -13446,15 +13788,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 123.19 0)
 			(effects
@@ -13473,8 +13806,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 123.19 0)
+		(property "DigiKey #" ""
+			(at 194.31 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,15 +13903,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C2336884"
-			(at 182.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Murata"
 			(at 182.88 97.79 0)
 			(effects
@@ -13579,7 +13921,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" "490-GQM1875C2E300GB12DCT-ND"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C2336884"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "81-GQM1875C2E300GB2D"
 			(at 182.88 97.79 0)
 			(effects
 				(font
@@ -13658,24 +14018,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 138.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 138.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 138.43 142.24 0)
 			(effects
@@ -13686,6 +14028,33 @@
 			)
 		)
 		(property "Mfr #" "0603WAF1002T5E"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C25804"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 138.43 142.24 0)
 			(effects
 				(font
@@ -13764,24 +14133,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C75176"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Nexperia"
 			(at 80.01 180.34 0)
 			(effects
@@ -13792,6 +14143,33 @@
 			)
 		)
 		(property "Mfr #" "PESD2CAN,215"
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "1727-3891-1-ND"
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C75176"
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "771-PESD2CAN-T/R"
 			(at 80.01 180.34 0)
 			(effects
 				(font
@@ -13870,15 +14248,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C115962"
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "YXC"
 			(at 177.8 91.44 0)
 			(effects
@@ -13897,7 +14266,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C115962"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -14108,15 +14495,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 138.43 0)
 			(effects
@@ -14135,8 +14513,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 138.43 0)
+		(property "DigiKey #" ""
+			(at 194.31 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,24 +14610,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 186.69 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C148223"
-			(at 186.69 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Littelfuse"
 			(at 186.69 34.29 90)
 			(effects
@@ -14242,6 +14620,33 @@
 			)
 		)
 		(property "Mfr #" "SMAJ24CA"
+			(at 186.69 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "SMAJ24CALFCT-ND"
+			(at 186.69 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C148223"
+			(at 186.69 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "576-SMAJ24CA"
 			(at 186.69 34.29 90)
 			(effects
 				(font
@@ -14320,15 +14725,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C8734"
-			(at 226.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "STMicroelectronics"
 			(at 226.06 110.49 0)
 			(effects
@@ -14347,7 +14743,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" "497-17666-1-ND"
+			(at 226.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C8734"
+			(at 226.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "511-STM32F103C8T6"
 			(at 226.06 110.49 0)
 			(effects
 				(font
@@ -14565,15 +14979,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 17.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 17.78 99.06 0)
 			(effects
@@ -14592,7 +14997,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 17.78 99.06 0)
 			(effects
 				(font
@@ -14736,24 +15159,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 262.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5199872"
-			(at 262.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 262.89 33.02 0)
 			(effects
@@ -14764,6 +15169,33 @@
 			)
 		)
 		(property "Mfr #" "CL10B105KB8NQNC"
+			(at 262.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 262.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 262.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 262.89 33.02 0)
 			(effects
 				(font
@@ -14841,15 +15273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 123.19 0)
 			(effects
@@ -14868,7 +15291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 123.19 0)
 			(effects
 				(font
@@ -14877,7 +15300,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 123.19 0)
 			(effects
 				(font
@@ -14956,15 +15397,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 199.39 63.5 0)
 			(effects
@@ -14983,7 +15415,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 199.39 63.5 0)
 			(effects
 				(font
@@ -15061,6 +15511,51 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ac5b18f-d7af-485d-a88a-b792b42d9857")
 		)
@@ -15126,15 +15621,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 125.73 0)
 			(effects
@@ -15153,7 +15639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -15162,7 +15648,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -15438,15 +15942,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C42372545"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "hanxia"
 			(at 274.32 128.27 0)
 			(effects
@@ -15465,7 +15960,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C42372545"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 274.32 128.27 0)
 			(effects
 				(font
@@ -15554,15 +16067,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 128.27 0)
 			(effects
@@ -15581,8 +16085,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 128.27 0)
+		(property "DigiKey #" ""
+			(at 194.31 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,24 +16181,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 76.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1002"
-			(at 76.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 76.2 107.95 0)
 			(effects
@@ -15687,6 +16191,33 @@
 			)
 		)
 		(property "Mfr #" "2157601002"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601002-ND"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1002"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -15821,6 +16352,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -16032,6 +16590,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 109.22 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 109.22 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 109.22 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
@@ -16097,15 +16682,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 17.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 17.78 105.41 0)
 			(effects
@@ -16124,7 +16700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 17.78 105.41 0)
 			(effects
 				(font
@@ -16133,8 +16709,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 17.78 105.41 0)
+		(property "DigiKey #" ""
+			(at 17.78 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 17.78 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 17.78 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,24 +16804,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 27.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C207019"
-			(at 27.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Littelfuse"
 			(at 27.94 95.25 0)
 			(effects
@@ -16239,6 +16815,33 @@
 		)
 		(property "Mfr #" "0805L010/24YR"
 			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "F11311CT-ND"
+			(at 27.94 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C207019"
+			(at 27.94 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "576-0805L010/24YR"
+			(at 27.94 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,24 +16985,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 133.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "653-G2RL-1A-DC12"
-			(at 133.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Omron"
 			(at 133.35 119.38 0)
 			(effects
@@ -16410,6 +16995,33 @@
 			)
 		)
 		(property "Mfr #" "G2RL-1A-DC12"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "Z140-ND"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "653-G2RL-1A-DC12"
 			(at 133.35 119.38 0)
 			(effects
 				(font
@@ -16561,6 +17173,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33480263-690e-4449-a64d-d5f5b78ec2c7")
 		)
@@ -16629,15 +17268,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 125.73 0)
 			(effects
@@ -16656,8 +17286,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 125.73 0)
+		(property "DigiKey #" ""
+			(at 194.31 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16753,25 +17401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 116.84 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C241925"
-			(at 116.84 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "VISHAY"
+		(property "Mfr" "Vishay"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -16781,6 +17411,33 @@
 			)
 		)
 		(property "Mfr #" "BYG20J-E3/TR"
+			(at 116.84 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "BYG20J-E3/TR3GICT-ND"
+			(at 116.84 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C241925"
+			(at 116.84 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "625-BYG20J-E3/TR3"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -16923,24 +17580,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C14019"
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 44.45 173.99 0)
 			(effects
@@ -16951,6 +17590,33 @@
 			)
 		)
 		(property "Mfr #" "SN65HVD1050DR"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-26335-1-ND"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C14019"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-SN65HVD1050DR"
 			(at 44.45 173.99 0)
 			(effects
 				(font
@@ -17243,6 +17909,51 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b8b892-62e8-46d0-a451-fd003621c5b4")
 		)
@@ -17375,15 +18086,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 130.81 0)
 			(effects
@@ -17402,8 +18104,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 130.81 0)
+		(property "DigiKey #" ""
+			(at 194.31 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17479,24 +18199,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 181.61 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C207019"
-			(at 181.61 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Littelfuse"
 			(at 181.61 29.21 0)
 			(effects
@@ -17508,6 +18210,33 @@
 		)
 		(property "Mfr #" "0805L010/24YR"
 			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "F11311CT-ND"
+			(at 181.61 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C207019"
+			(at 181.61 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "576-0805L010/24YR"
+			(at 181.61 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17715,15 +18444,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 143.51 0)
 			(effects
@@ -17742,8 +18462,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 143.51 0)
+		(property "DigiKey #" ""
+			(at 194.31 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17886,24 +18624,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 213.36 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C556393"
-			(at 213.36 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "onsemi"
 			(at 213.36 20.32 0)
 			(effects
@@ -17914,6 +18634,33 @@
 			)
 		)
 		(property "Mfr #" "NSR0530H"
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NSR0530HT1GOSCT-ND"
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C556393"
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "863-NSR0530HT1G"
 			(at 213.36 20.32 0)
 			(effects
 				(font
@@ -17990,15 +18737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C139797"
-			(at 264.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "ALPSALPINE"
 			(at 264.16 144.78 0)
 			(effects
@@ -18017,7 +18755,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" "4809-SKRPACE010CT-ND"
+			(at 264.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C139797"
+			(at 264.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "688-SKRPACE010"
 			(at 264.16 144.78 0)
 			(effects
 				(font
@@ -18105,24 +18861,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 173.99 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C84263"
-			(at 173.99 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 173.99 33.02 0)
 			(effects
@@ -18134,6 +18872,33 @@
 		)
 		(property "Mfr #" "NCD0603R1"
 			(at 173.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 173.99 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 173.99 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 173.99 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,24 +19107,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 173.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 173.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 173.99 39.37 0)
 			(effects
@@ -18370,6 +19117,33 @@
 			)
 		)
 		(property "Mfr #" "0603WAF1002T5E"
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C25804"
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 173.99 39.37 0)
 			(effects
 				(font
@@ -18446,24 +19220,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 77.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "538-215760-1012"
-			(at 77.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Molex"
 			(at 77.47 119.38 0)
 			(effects
@@ -18473,7 +19229,34 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "2157601012"
+		(property "Mfr #" "2157601002"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "900-2157601002-ND"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "538-215760-1002"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -18553,24 +19336,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "653-G2RL-1A-DC12"
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Omron"
 			(at 133.35 71.12 0)
 			(effects
@@ -18581,6 +19346,33 @@
 			)
 		)
 		(property "Mfr #" "G2RL-1A-DC12"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "Z140-ND"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "653-G2RL-1A-DC12"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -18665,15 +19457,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 181.61 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 181.61 63.5 0)
 			(effects
@@ -18692,7 +19475,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -18771,15 +19572,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 172.72 63.5 0)
 			(effects
@@ -18798,7 +19590,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -18943,6 +19753,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 127 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 127 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 127 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Precharge_PCB"
 				(path "/c467677d-b98c-4488-bd11-965ef67263b2"
@@ -19070,24 +19907,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 248.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C632000"
-			(at 248.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Microchip Tech"
 			(at 248.92 29.21 0)
 			(effects
@@ -19098,6 +19917,33 @@
 			)
 		)
 		(property "Mfr #" "MCP1700T-3302E/MB"
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "MCP1700T3302EMBCT-ND"
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C632000"
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "579-MCP1700T3302E/MB"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -19244,6 +20090,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 156.21 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 156.21 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 156.21 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dadb650-2261-4586-bb93-145290d89c47")
 		)
@@ -19379,15 +20252,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 130.81 0)
 			(effects
@@ -19406,7 +20270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -19415,7 +20279,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -19557,24 +20439,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 191.77 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C556393"
-			(at 191.77 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "onsemi"
 			(at 191.77 29.21 0)
 			(effects
@@ -19585,6 +20449,33 @@
 			)
 		)
 		(property "Mfr #" "NSR0530H"
+			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NSR0530HT1GOSCT-ND"
+			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C556393"
+			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "863-NSR0530HT1G"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -19657,6 +20548,33 @@
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 135.89 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 135.89 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 135.89 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 135.89 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19990,15 +20908,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 133.35 0)
 			(effects
@@ -20017,8 +20926,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 133.35 0)
+		(property "DigiKey #" ""
+			(at 194.31 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20295,24 +21222,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5199872"
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 234.95 33.02 0)
 			(effects
@@ -20323,6 +21232,33 @@
 			)
 		)
 		(property "Mfr #" "CL10B105KB8NQNC"
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 234.95 33.02 0)
 			(effects
 				(font
@@ -20486,25 +21422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 116.84 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C241925"
-			(at 116.84 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "VISHAY"
+		(property "Mfr" "Vishay"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -20514,6 +21432,33 @@
 			)
 		)
 		(property "Mfr #" "BYG20J-E3/TR"
+			(at 116.84 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "BYG20J-E3/TR3GICT-ND"
+			(at 116.84 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C241925"
+			(at 116.84 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "625-BYG20J-E3/TR3"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -20657,15 +21602,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C23138"
-			(at 194.31 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 194.31 135.89 0)
 			(effects
@@ -20684,8 +21620,26 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 194.31 135.89 0)
+		(property "DigiKey #" ""
+			(at 194.31 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C23138"
+			(at 194.31 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 194.31 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20829,24 +21783,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 68.58 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C126576"
-			(at 68.58 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Murata"
 			(at 68.58 181.61 0)
 			(effects
@@ -20857,6 +21793,33 @@
 			)
 		)
 		(property "Mfr #" "GCM1885C2A101JA16D"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "490-4771-1-ND"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C126576"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "81-GCM1885C2A101JA6D"
 			(at 68.58 181.61 0)
 			(effects
 				(font
@@ -20934,6 +21897,51 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3c491af-f873-491a-9595-9819e6c9db3f")
 		)
@@ -20999,24 +22007,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 267.97 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C556393"
-			(at 267.97 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "onsemi"
 			(at 267.97 118.11 0)
 			(effects
@@ -21028,6 +22018,33 @@
 		)
 		(property "Mfr #" "NSR0530H"
 			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "NSR0530HT1GOSCT-ND"
+			(at 267.97 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C556393"
+			(at 267.97 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "863-NSR0530HT1G"
+			(at 267.97 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21096,6 +22113,51 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "36-5000-ND"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199900"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "534-5000"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone Electronics"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "5000"
 			(at 30.48 167.64 0)
 			(effects
 				(font
@@ -21307,24 +22369,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 114.3 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5248874"
-			(at 114.3 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "DIODES"
 			(at 114.3 134.62 0)
 			(effects
@@ -21335,6 +22379,33 @@
 			)
 		)
 		(property "Mfr #" "DMN61D8LQ-7"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "DMN61D8LQ-7DICT-ND"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5248874"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "621-DMN61D8LQ-7"
 			(at 114.3 134.62 0)
 			(effects
 				(font
@@ -21483,24 +22554,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C126576"
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Murata"
 			(at 63.5 181.61 0)
 			(effects
@@ -21511,6 +22564,33 @@
 			)
 		)
 		(property "Mfr #" "GCM1885C2A101JA16D"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "490-4771-1-ND"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C126576"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "81-GCM1885C2A101JA6D"
 			(at 63.5 181.61 0)
 			(effects
 				(font
@@ -21726,24 +22806,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5248874"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "DIODES"
 			(at 125.73 86.36 0)
 			(effects
@@ -21754,6 +22816,33 @@
 			)
 		)
 		(property "Mfr #" "DMN61D8LQ-7"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "DMN61D8LQ-7DICT-ND"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5248874"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "621-DMN61D8LQ-7"
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -21834,24 +22923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 228.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5199872"
-			(at 228.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 228.6 33.02 0)
 			(effects
@@ -21862,6 +22933,33 @@
 			)
 		)
 		(property "Mfr #" "CL10B105KB8NQNC"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -21938,15 +23036,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C84263"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Foshan NationStar Optoelectronics"
 			(at 184.15 128.27 0)
 			(effects
@@ -21965,7 +23054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "Sim.Pin" "1=K 2=A"
 			(at 184.15 128.27 0)
 			(effects
 				(font
@@ -21974,7 +23063,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "DigiKey #" ""
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C84263"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 184.15 128.27 0)
 			(effects
 				(font

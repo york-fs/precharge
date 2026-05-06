@@ -3671,24 +3671,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "DigiKey"
-			(at 177.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "1866-4835-ND"
-			(at 177.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "MEAN WELL"
 			(at 177.8 35.56 0)
 			(effects
@@ -3699,6 +3681,33 @@
 			)
 		)
 		(property "Mfr #" "SPU01L-05"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "1866-4835-ND"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "709-SPU01L-05"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -3914,24 +3923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 77.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C67470"
-			(at 77.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 77.47 105.41 0)
 			(effects
@@ -3942,6 +3933,33 @@
 			)
 		)
 		(property "Mfr #" "LM393DR"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-1015-1-ND"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C67470"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-LM393DR"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -4036,24 +4054,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 91.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C67470"
-			(at 91.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 91.44 140.97 0)
 			(effects
@@ -4064,6 +4064,33 @@
 			)
 		)
 		(property "Mfr #" "LM393DR"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-1015-1-ND"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C67470"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-LM393DR"
 			(at 91.44 140.97 0)
 			(effects
 				(font
@@ -4290,6 +4317,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7efa1d9-8b57-47d4-8cec-0a375f3e7a0a")
 		)
@@ -4488,24 +4542,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 68.58 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5199872"
-			(at 68.58 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 68.58 92.71 90)
 			(effects
@@ -4516,6 +4552,33 @@
 			)
 		)
 		(property "Mfr #" "CL10B105KB8NQNC"
+			(at 68.58 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 68.58 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 68.58 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 68.58 92.71 90)
 			(effects
 				(font
@@ -4724,6 +4787,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e55afa2e-114e-48d5-a660-8b88010cf496")
 		)
@@ -4859,24 +4949,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 52.07 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C5199872"
-			(at 52.07 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 52.07 125.73 90)
 			(effects
@@ -4888,6 +4960,33 @@
 		)
 		(property "Mfr #" "CL10B105KB8NQNC"
 			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,24 +5066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 77.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C67470"
-			(at 77.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 77.47 105.41 0)
 			(effects
@@ -4995,6 +5076,33 @@
 			)
 		)
 		(property "Mfr #" "LM393DR"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-1015-1-ND"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C67470"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-LM393DR"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -5192,24 +5300,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Mouser"
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "595-TLV6002QDRQ1"
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Texas Instruments"
 			(at 114.3 44.45 0)
 			(effects
@@ -5220,6 +5310,33 @@
 			)
 		)
 		(property "Mfr #" "TLV6002QDRQ1"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "296-TLV6002QDRQ1CT-ND"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C1850245"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-TLV6002QDRQ1"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -5381,24 +5498,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C25804"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 110.49 110.49 0)
 			(effects
@@ -5409,6 +5508,33 @@
 			)
 		)
 		(property "Mfr #" "0603WAF1002T5E"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C25804"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -5487,15 +5613,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Samsung"
 			(at 124.46 44.45 0)
 			(effects
@@ -5514,7 +5631,25 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
+		(property "DigiKey #" ""
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C5199872"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "187-CL10B105KB8NQNC"
 			(at 124.46 44.45 0)
 			(effects
 				(font
@@ -5658,24 +5793,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C4069"
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "onsemi"
 			(at 96.52 102.87 0)
 			(effects
@@ -5686,6 +5803,33 @@
 			)
 		)
 		(property "Mfr #" "4N35M"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" "4N35MFS-ND"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C4069"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "512-4N35M"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -5776,6 +5920,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey #" ""
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52141648-2bca-4648-9c7c-6c93415ee03d")
 		)
@@ -5846,24 +6017,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "LCSC"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C21190"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfr" "Uni-Royal"
 			(at 88.9 88.9 0)
 			(effects
@@ -5874,6 +6027,33 @@
 			)
 		)
 		(property "Mfr #" "0603WAF1001T5E"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey #" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C21190"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
 			(at 88.9 88.9 0)
 			(effects
 				(font
