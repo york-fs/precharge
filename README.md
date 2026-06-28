@@ -6,7 +6,19 @@
 ![ERC Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fyork-fs.github.io%2Fprecharge%2Ferc.json)
 ![DRC Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fyork-fs.github.io%2Fprecharge%2Fdrc.json)
 
-![Preview Render](https://york-fs.github.io/precharge/preview.jpg)
+The precharge board is responsible for precharging the inverter's large capacitance through a dedicated relay and
+resistor before the AIRs close.
+
+[Latest Release](https://github.com/york-fs/precharge/releases/latest)
+[Interactive BOM](https://york-fs.github.io/precharge/ibom.html)
+
+## Features
+
+* **CAN Communication**
+* **AIR Relay Control**
+* **HV Sampling of Accumulator and TS sides**
+
+![Render Preview](https://york-fs.github.io/precharge/render.jpg)
 
 ## Cloning
 
