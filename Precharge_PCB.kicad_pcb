@@ -4422,17 +4422,6 @@
 			(uuid "52677bbb-b536-4678-8be0-b7dc57e622da")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/ljcar/Desktop/APRL.step"
-			(offset
-				(xyz 28 -4.3 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
-		)
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -37846,7 +37835,7 @@
 			(uuid "bb11983f-98b3-4c65-9007-be9780b7d824")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/ljcar/Downloads/LIB_G9EJH-1-P-E_DC12/G9EJH-1-P-E_DC12/3D/G9EJH-1-P-E_DC12.stp"
+		(model "${KIPRJMOD}/kicad-library/models/Omron_G9EJH-1-P-E.step"
 			(offset
 				(xyz 12.4 10.3 0)
 			)
